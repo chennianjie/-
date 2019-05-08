@@ -1,3 +1,5 @@
+package thread;
+
 /**
  * 如何在主线程中捕获子线程的异常
  * Runnable接口中的run方法原型：public void run();说明线程代码不可以抛出任何checked异常
