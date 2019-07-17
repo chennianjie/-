@@ -1,4 +1,4 @@
-package fbonacci;
+package arithmetic.fbonacci;
 
 /**
  * 输入一个整数n，请你输出斐波那契数列的第n项

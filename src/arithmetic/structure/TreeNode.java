@@ -1,4 +1,4 @@
-package structure;
+package arithmetic.structure;
 
 public class TreeNode {
      int val;

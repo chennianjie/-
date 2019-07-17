@@ -1,4 +1,4 @@
-package thread;
+package arithmetic.thread;
 
 /**
  * 如何在主线程中捕获子线程的异常

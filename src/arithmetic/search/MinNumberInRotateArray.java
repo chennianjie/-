@@ -1,4 +1,4 @@
-package search;
+package arithmetic.search;
 
 /**
  * 数组元素中不存在重复元素才可以进行二分

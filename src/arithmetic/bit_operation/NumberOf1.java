@@ -1,4 +1,4 @@
-package bit_operation;
+package arithmetic.bit_operation;
 
 /**
  * 找寻一个十进制数的二进制表达形式中包含1的个数

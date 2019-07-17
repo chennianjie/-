@@ -1,4 +1,4 @@
-package queue;
+package arithmetic.queue;
 
 import java.util.Stack;
 

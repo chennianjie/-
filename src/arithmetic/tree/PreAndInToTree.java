@@ -1,6 +1,6 @@
-package tree;
+package arithmetic.tree;
 
-import structure.TreeNode;
+import arithmetic.structure.TreeNode;
 
 /**
  * 两个数组，一个代表二叉树的先序遍历，一个代表中序遍历，还原二叉树的head节点
