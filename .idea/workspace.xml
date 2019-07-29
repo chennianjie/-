@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/META-INF/CommonInterviewProblems.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/bit_operation/NumberOf1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/fbonacci/FibonacciFind.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/fbonacci/JumpFloor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/fbonacci/JumpFloorⅡ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/fbonacci/RectCover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/queue/ArrayQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/queue/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/queue/TwoStackToQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/search/MinNumberInRotateArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/search/SearchInDoubleArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/structure/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/thread/TestUncaughtException$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/thread/TestUncaughtException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/arithmetic/tree/PreAndInToTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/common/MyRuntimeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/AbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/AbstractProductA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/AbstractProductB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/ConcreteFactory1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/ConcreteFactory2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/ProductA1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/ProductA2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/ProductB1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/ProductB2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/builder/AbstarctStringBuffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/builder/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/builder/OutOfMemoryException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/chain_of_responsibility/CharacterFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/chain_of_responsibility/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/chain_of_responsibility/FilterChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/chain_of_responsibility/HttpFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/chain_of_responsibility/HttpRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/chain_of_responsibility/HttpResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/chain_of_responsibility/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/factory_method/FactoryMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/factory_method/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/factory_method/Product1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/prototype/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/prototype/ConcretePrototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/prototype/Prototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/sigleton/InnerClassSingleTon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/sigleton/InnerClassSingleTon$SingleTonHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/sigleton/InnerClassSingleTon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/sigleton/SigleTon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_mode/command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_mode/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_mode/command/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_mode/command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_mode/command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_mode/command/LightOnCommand.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_mode/chain_of_responsibility/CharacterFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_mode/chain_of_responsibility/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_mode/sigleton/InnerClassSingleTon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_mode/sigleton/SigleTon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_mode/command/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_mode/command/Light.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_mode/command/LightOnCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_mode/command/LightOffCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_mode/command/Invoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="16" />
+              <folding>
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/design_mode/command/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/arithmetic/fbonacci/JumpFloorⅡ.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/sigleton/InnerClassSingleTon.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/sigleton/FactoryMethod.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/factory_method/Product1.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/factory_method/Product.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/factory_method/FactoryMethod.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/abstractFactory/ProductB2.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/abstractFactory/ProductB1.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/abstractFactory/ProductA1.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/abstractFactory/ProductA2.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/abstractFactory/ConcreteFactoryA.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/abstractFactory/ConcreteFactory1.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/abstractFactory/ConcreteFactory2.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/abstractFactory/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/builder/OutOfMemoryException.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/builder/AbstarctStringBuffer.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/builder/Client.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/abstractFactory/Client.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/prototype/Prototype.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/prototype/ConcretePrototype.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/prototype/Client.java" />
+        <option value="$PROJECT_DIR$/src/common/MyRuntimeException.java" />
+        <option value="$PROJECT_DIR$/src/arithmetic/queue/ArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/arithmetic/queue/Client.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/HttpResponse.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/HttpFilter.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/Client.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/FilterChain.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/CharacterFilter.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/sigleton/SigleTon.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/command/Command.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/command/Invoker.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/command/Light.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/command/LightOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/command/lightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/command/Client.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/JayChen/developApps/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
+              <item name="sigleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Client (4)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_mode.prototype.Client" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design_mode.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.queue.Client" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_mode.chain_of_responsibility.Client" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design_mode.chain_of_responsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_mode.command.Client" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design_mode.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_mode.builder.Client" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design_mode.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CommonInterviewProblems" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Spring Boot.Unnamed" />
+      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.Client (4)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client (4)" />
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="" />
+      <created>1563267391764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563267391764</updated>
+      <workItem from="1563267394108" duration="2022000" />
+      <workItem from="1563329599080" duration="3731000" />
+      <workItem from="1563352906635" duration="4758000" />
+      <workItem from="1563848136450" duration="1287000" />
+      <workItem from="1563952546366" duration="7663000" />
+      <workItem from="1564044948534" duration="2006000" />
+      <workItem from="1564131123246" duration="921000" />
+      <workItem from="1564370661609" duration="11005000" />
+    </task>
+    <task id="LOCAL-00001" summary="单例模式（双重判断锁+静态内部类）">
+      <created>1563342132686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563342132686</updated>
+    </task>
+    <task id="LOCAL-00002" summary="工厂方法模式">
+      <created>1563354867491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563354867491</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix">
+      <created>1563954982164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563954982164</updated>
+    </task>
+    <task id="LOCAL-00004" summary="抽象工厂模式">
+      <created>1563955000727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563955000727</updated>
+    </task>
+    <task id="LOCAL-00005" summary="生成器/构造器模式">
+      <created>1563958713186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563958713186</updated>
+    </task>
+    <task id="LOCAL-00006" summary="原型模式   构造行为的模式结束">
+      <created>1564131350868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564131350868</updated>
+    </task>
+    <task id="LOCAL-00007" summary="数组实现队列结构 --基础">
+      <created>1564381150140</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564381150140</updated>
+    </task>
+    <task id="LOCAL-00008" summary="责任链设计模式">
+      <created>1564386877080</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564386877080</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33393000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27242303" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49933067" visible="true" weight="0.37083334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4986613" weight="0.37361112" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49933067" weight="0.7125" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50133866" side_tool="true" weight="0.31527779" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32916668" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966533" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299866" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3299866" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24925596" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32732734" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="单例模式（双重判断锁+静态内部类）" />
+    <MESSAGE value="工厂方法模式" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="抽象工厂模式" />
+    <MESSAGE value="生成器/构造器模式" />
+    <MESSAGE value="原型模式   构造行为的模式结束" />
+    <MESSAGE value="数组实现队列结构 --基础" />
+    <MESSAGE value="责任链设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="责任链设计模式" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/design_mode/sigleton/FactoryMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/design_mode/factory_method/Product1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/fbonacci/JumpFloor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/fbonacci/JumpFloorⅡ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/fbonacci/FibonacciFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/factory_method/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/abstractFactory/AbstractProductB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/abstractFactory/ProductB2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/abstractFactory/ProductB1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/abstractFactory/ProductA1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/abstractFactory/ProductA2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/abstractFactory/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/abstractFactory/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/abstractFactory/ConcreteFactory1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/abstractFactory/ConcreteFactory2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/factory_method/FactoryMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/builder/AbstarctStringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/builder/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/prototype/Prototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/prototype/ConcretePrototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/builder/OutOfMemoryException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/abstractFactory/AbstractProductA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/ConcreteFactory1.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/Client.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/CommonInterviewProblems/design_mode/abstractFactory/AbstractFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/prototype/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/queue/TwoStackToQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/MyRuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2380">
+          <caret line="150" column="40" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/queue/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/chain_of_responsibility/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/chain_of_responsibility/HttpFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/queue/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/chain_of_responsibility/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/chain_of_responsibility/FilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/chain_of_responsibility/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/chain_of_responsibility/CharacterFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/chain_of_responsibility/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/sigleton/InnerClassSingleTon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/sigleton/SigleTon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/command/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/command/LightOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/command/LightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/command/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/command/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CommonInterviewProblems</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
