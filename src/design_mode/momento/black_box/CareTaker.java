@@ -1,6 +1,5 @@
 package design_mode.momento.black_box;
 
-import design_mode.momento.white_box.Momento;
 
 /**
  * 负责人角色
@@ -9,17 +8,17 @@ import design_mode.momento.white_box.Momento;
  */
 public class CareTaker {
 
-    private Momento momento;
+    private Momento4Out momento;
 
-    public CareTaker(Momento momento){
+    public CareTaker(Momento4Out momento){
         this.momento = momento;
     }
 
-    public Momento getMomento(){
+    public Momento4Out getMomento() {
         return momento;
     }
 
-    public void setMomento(Momento momento){
+    public void setMomento(Momento4Out momento) {
         this.momento = momento;
     }
 }

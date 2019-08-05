@@ -27,25 +27,25 @@ public class Originator {
      * 创建一个备忘录
      * @return
      */
-    public Momento createMomento(){
-        return new Momento(this.state);
+    public Momento4Out createMemento(){
+        return new Memento(this.state);
     }
 
     /**
      * 从一个备忘录恢复
      * @param momento
      */
-    public void restoreMomento(Momento momento) {
-        this.state = momento.getState();
+    public void restoreMemento(Momento4Out momento) {
+        this.setState(((Memento)momento).getState());
     }
 
     /**
      * 内部备忘录类
      */
-    private class Momento implements Momento4Out{
+    private class Memento implements Momento4Out{
         private String state;
 
-        public Momento(String state) {
+        public Memento(String state) {
             this.state = state;
         }
 
