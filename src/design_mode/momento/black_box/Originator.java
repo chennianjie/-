@@ -1,6 +1,5 @@
 package design_mode.momento.black_box;
 
-import design_mode.mediator.Mediator;
 
 /**
  * 发起者类

@@ -1,5 +1,8 @@
 package design_mode.momento.black_box;
 
+/**
+ * 自述历史模式和多重检查点模式的备忘录设计模式
+ */
 public class Client {
     public static void main(String[] args) {
         Originator originator = new Originator("ON");
