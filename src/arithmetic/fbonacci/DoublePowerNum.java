@@ -1,6 +1,7 @@
 package arithmetic.fbonacci;
 
 /**
+ * https://blog.csdn.net/jsqfengbao/article/details/47164537#commentBox  参考链接
  * 求一个double类型的数base的exponent次方
  */
 public class DoublePowerNum {
