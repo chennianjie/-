@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design_mode/observer/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_mode/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_mode/observer/Observer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_mode/observer/Observer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_mode/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arithmetic/fbonacci/DoublePowerNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/momento/black_box/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_mode/momento/black_box/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/momento/black_box/Originator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_mode/momento/black_box/Originator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,15 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design_mode/momento/white_box/Momento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design_mode/momento/white_box/CareTaker.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,13 +96,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design_mode/observer/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="170">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arithmetic/fbonacci/DoublePowerNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arithmetic/bit_operation/NumberOf1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design_mode/observer/ConcreteSubject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -144,15 +147,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design_mode/momento/white_box/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -170,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design_mode/builder/Client.java" />
         <option value="$PROJECT_DIR$/src/design_mode/abstractFactory/Client.java" />
         <option value="$PROJECT_DIR$/src/design_mode/prototype/Prototype.java" />
         <option value="$PROJECT_DIR$/src/design_mode/prototype/ConcretePrototype.java" />
@@ -219,8 +212,9 @@
         <option value="$PROJECT_DIR$/src/design_mode/observer/Observer.java" />
         <option value="$PROJECT_DIR$/src/design_mode/observer/Observer1.java" />
         <option value="$PROJECT_DIR$/src/design_mode/observer/Observer2.java" />
-        <option value="$PROJECT_DIR$/src/design_mode/observer/Client.java" />
         <option value="$PROJECT_DIR$/src/design_mode/observer/ConcreteSubject.java" />
+        <option value="$PROJECT_DIR$/src/design_mode/observer/Client.java" />
+        <option value="$PROJECT_DIR$/src/arithmetic/fbonacci/DoublePowerNum.java" />
       </list>
     </option>
   </component>
@@ -272,51 +266,43 @@
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="bit_operation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="chain_of_responsibility" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="fbonacci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="factory_method" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="momento" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="momento" type="462c0819:PsiDirectoryNode" />
-              <item name="black_box" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="momento" type="462c0819:PsiDirectoryNode" />
-              <item name="white_box" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_mode" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.DoublePowerNum">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design_mode.momento.white_box.Client" />
       <module name="CommonInterviewProblems" />
@@ -396,12 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_mode.iterator.Client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_mode.mediator.Client" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_mode.iterator.*" />
+          <option name="PATTERN" value="design_mode.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,12 +395,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_mode.mediator.Client" />
+    <configuration name="DoublePowerNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.fbonacci.DoublePowerNum" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_mode.mediator.*" />
+          <option name="PATTERN" value="arithmetic.fbonacci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,20 +416,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Spring Boot.Unnamed" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.DoublePowerNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoublePowerNum" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +455,7 @@
       <workItem from="1564559673271" duration="277000" />
       <workItem from="1564623150681" duration="598000" />
       <workItem from="1564713786875" duration="5869000" />
-      <workItem from="1564973111329" duration="6111000" />
+      <workItem from="1564973111329" duration="9738000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式（双重判断锁+静态内部类）">
       <created>1563342132686</created>
@@ -562,11 +548,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564975449625</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="观察者设计模式">
+      <created>1564988594861</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564988594861</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54281000" />
+    <option name="totallyTimeSpent" value="57908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,27 +693,14 @@
     <MESSAGE value="备忘录模式（白箱版）" />
     <MESSAGE value="备忘录模式（黑箱版） --暂时提交" />
     <MESSAGE value="备忘录模式（黑箱版）  fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="备忘录模式（黑箱版）  fix" />
+    <MESSAGE value="观察者设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="观察者设计模式" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/design_mode/prototype/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/queue/TwoStackToQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/MyRuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1183,13 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_mode/observer/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/design_mode/observer/ConcreteSubject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1203,6 +1176,27 @@
             <element signature="e#413#414#0" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_mode/observer/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/bit_operation/NumberOf1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arithmetic/fbonacci/DoublePowerNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
