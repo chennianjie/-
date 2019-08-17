@@ -419,11 +419,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.Unnamed" />
       <item itemvalue="Application.ReOrderArray" />
       <item itemvalue="Application.FindFinalListNode" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Spring Boot.Unnamed" />
       <item itemvalue="Application.TrieTree" />
     </list>
     <recent_temporary>
