@@ -2,68 +2,226 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="快速排序">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_org_springframework_jdbc_3_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CommonInterviewProblems.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CommonInterviewProblems.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/abstractFactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/abstractFactory/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/abstractFactory/AbstractProductA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/abstractFactory/AbstractProductA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/abstractFactory/AbstractProductB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/abstractFactory/AbstractProductB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/abstractFactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/abstractFactory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/abstractFactory/ConcreteFactory1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ConcreteFactory1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/abstractFactory/ConcreteFactory2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ConcreteFactory2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/abstractFactory/ProductA1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ProductA1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/abstractFactory/ProductA2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ProductA2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/abstractFactory/ProductB1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ProductB1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/abstractFactory/ProductB2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ProductB2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/builder/AbstarctStringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/builder/AbstarctStringBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/builder/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/builder/OutOfMemoryException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/builder/OutOfMemoryException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/CharacterFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/CharacterFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/FilterChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/FilterChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/HttpFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/HttpFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/HttpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/HttpResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/command/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/command/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/command/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/command/Invoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/command/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/command/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/command/LightOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/command/LightOffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/command/LightOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/command/LightOnCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/factory_method/FactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/factory_method/FactoryMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/factory_method/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/factory_method/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/factory_method/Product1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/factory_method/Product1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/iterator/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/iterator/Aggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/iterator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/iterator/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/iterator/ConcreteAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/iterator/ConcreteAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/iterator/ConcreteIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/iterator/ConcreteIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/iterator/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/mediator/CDdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/mediator/CDdriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/mediator/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/mediator/CPU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/mediator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/mediator/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/mediator/Colleague.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/mediator/Colleague.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/mediator/MainBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/mediator/MainBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/mediator/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/mediator/Mediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/mediator/SoundCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/mediator/SoundCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/mediator/VedioCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/mediator/VedioCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/momento/black_box/CareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/momento/black_box/CareTaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/momento/black_box/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/momento/black_box/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/momento/black_box/Momento4Out.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/momento/black_box/Momento4Out.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/momento/black_box/Originator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/momento/black_box/Originator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/momento/white_box/CareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/momento/white_box/CareTaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/momento/white_box/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/momento/white_box/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/momento/white_box/Momento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/momento/white_box/Momento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/momento/white_box/Originator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/momento/white_box/Originator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/observer/ConcreteSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/observer/ConcreteSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/observer/Observer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/observer/Observer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/observer/Observer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/observer/Observer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/observer/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/prototype/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/prototype/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/prototype/ConcretePrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/prototype/ConcretePrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/prototype/Prototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/sigleton/InnerClassSingleTon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/sigleton/InnerClassSingleTon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_mode/sigleton/SigleTon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_pattern/sigleton/SigleTon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/bit_operation/NumberOf1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/fbonacci/DoublePowerNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/fbonacci/FibonacciFind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/fbonacci/JumpFloor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/fbonacci/JumpFloorⅡ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/fbonacci/RectCover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/list/FindFinalListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/queue/ArrayQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/queue/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/queue/TwoStackToQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/search/MinNumberInRotateArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/search/ReOrderArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/search/SearchInDoubleArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/sort/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/sort/BucketSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/sort/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/sort/InsertSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/sort/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/sort/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/structure/MaxWindowValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/structure/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/structure/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/structure/TrieTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/structure/UnionFindSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/thread/TestUncaughtException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arithmetic/tree/PreAndInToTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/ArrayTools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/MyRuntimeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/abstractFactory/AbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/abstractFactory/AbstractProductA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/abstractFactory/AbstractProductB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/abstractFactory/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ConcreteFactory1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ConcreteFactory2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ProductA1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ProductA2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ProductB1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/abstractFactory/ProductB2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/builder/AbstarctStringBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/builder/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/builder/OutOfMemoryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/CharacterFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/FilterChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/HttpFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/HttpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/HttpResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/chain_of_responsibility/LoginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/command/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/command/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/command/Invoker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/command/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/command/LightOffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/command/LightOnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/factory_method/FactoryMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/factory_method/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/factory_method/Product1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/iterator/Aggregate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/iterator/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/iterator/ConcreteAggregate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/iterator/ConcreteIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/iterator/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/mediator/CDdriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/mediator/CPU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/mediator/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/mediator/Colleague.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/mediator/MainBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/mediator/Mediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/mediator/SoundCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/mediator/VedioCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/momento/black_box/CareTaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/momento/black_box/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/momento/black_box/Momento4Out.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/momento/black_box/Originator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/momento/white_box/CareTaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/momento/white_box/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/momento/white_box/Momento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/momento/white_box/Originator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/observer/ConcreteSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/observer/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/observer/Observer1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/observer/Observer2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/observer/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/prototype/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/prototype/ConcretePrototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/prototype/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/sigleton/InnerClassSingleTon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/sigleton/SigleTon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/iterator/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/iterator/CourseAggregate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/iterator/CourseAggregateImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/iterator/CourseIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/iterator/CourseIteratorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/iterator/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/strategy/FanXianPromotionStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/strategy/LiJianPromotionStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/strategy/ManJianPromotionStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/strategy/PromotionActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/strategy/PromotionStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/strategy/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/templatemethod/ACourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/templatemethod/DesignPatternCourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/templatemethod/FECourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/behavioral/templatemethod/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/abstractfactory/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/abstractfactory/CourseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/abstractfactory/JavaArticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/abstractfactory/JavaCourseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/abstractfactory/JavaVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/abstractfactory/PythonArticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/abstractfactory/PythonCourseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/abstractfactory/PythonVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/abstractfactory/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/abstractfactory/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/builder/Coach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/builder/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/builder/CourseActualBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/builder/CourseBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/builder/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/builder/v2/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/builder/v2/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/factorymethod/FEVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/factorymethod/FEVideoFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/factorymethod/JavaVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/factorymethod/JavaVideoFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/factorymethod/PythonVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/factorymethod/PythonVideoFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/factorymethod/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/factorymethod/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/factorymethod/VideoFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/prototype/Mail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/prototype/MailUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/prototype/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/prototype/abstractprototype/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/prototype/abstractprototype/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/prototype/clone/Pig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/prototype/clone/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/simplefactory/JavaVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/simplefactory/PythonVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/simplefactory/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/simplefactory/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/simplefactory/VideoFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/singleton/ContainerSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/singleton/EnumInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/singleton/HungrySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/singleton/LazyDoubleCheckSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/singleton/LazySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/singleton/StaticInnerClassSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/singleton/T.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/singleton/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/creational/singleton/ThreadLocalInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/AC220.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/DC5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/PowerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/classadapter/Adaptee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/classadapter/Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/classadapter/ConcreteTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/classadapter/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/classadapter/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/objectadapter/Adaptee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/objectadapter/Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/objectadapter/ConcreteTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/objectadapter/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/adapter/objectadapter/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/bridge/ABCBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/bridge/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/bridge/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/bridge/DepositAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/bridge/ICBCBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/bridge/SavingAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/bridge/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/composite/CatalogComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/composite/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/composite/CourseCatalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/composite/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/decorator/v1/Battercake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/decorator/v1/BattercakeWithEgg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/decorator/v1/BattercakeWithEggSausage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/decorator/v1/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/decorator/v2/ABattercake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/decorator/v2/AbstractDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/decorator/v2/Battercake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/decorator/v2/EggDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/decorator/v2/SausageDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/decorator/v2/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/facade/GiftExchangeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/facade/PointsGift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/facade/PointsPaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/facade/QualifyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/facade/ShippingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/facade/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/flyweight/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/flyweight/EmployeeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/flyweight/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/flyweight/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/IOrderDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/IOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/OrderDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/db/DataSourceContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/db/DynamicDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/dynamicproxy/OrderServiceDynamicProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/dynamicproxy/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/staticproxy/OrderServiceStaticProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/staticproxy/Test.java" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,91 +248,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arithmetic/sort/QuickSort.java">
+        <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/reflect/InvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="51">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design_pattern/sigleton/InnerClassSingleTon.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern_mooc/structural/proxy/db/DataSourceContextHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arithmetic/queue/TwoStackToQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arithmetic/queue/ArrayQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-402">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arithmetic/queue/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arithmetic/tree/PreAndInToTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arithmetic/search/MinNumberInRotateArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pattern_mooc/structural/proxy/db/DynamicDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+            <state relative-caret-position="136">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arithmetic/sort/InsertSort.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arithmetic/structure/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arithmetic/list/FindFinalListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="306">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -196,8 +300,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design_mode/chain_of_responsibility/CharacterFilter.java" />
-        <option value="$PROJECT_DIR$/src/design_mode/sigleton/SigleTon.java" />
         <option value="$PROJECT_DIR$/src/design_mode/command/Command.java" />
         <option value="$PROJECT_DIR$/src/design_mode/command/Invoker.java" />
         <option value="$PROJECT_DIR$/src/design_mode/command/Light.java" />
@@ -247,6 +349,8 @@
         <option value="$PROJECT_DIR$/src/arithmetic/sort/BucketSort.java" />
         <option value="$PROJECT_DIR$/src/arithmetic/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/sigleton/InnerClassSingleTon.java" />
+        <option value="$PROJECT_DIR$/src/pattern_mooc/structural/proxy/db/DynamicDataSource.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -256,6 +360,11 @@
         <option name="mavenHome" value="C:/JayChen/developApps/apache-maven-3.6.1" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -264,56 +373,21 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="155" />
+    <option name="y" value="80" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
+      <flattenPackages Scope="false" ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <showExcludedFiles Scope="true" ProjectPane="true" />
       <hideEmptyPackages ProjectPane="false" />
+      <sortByType ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="sigleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -419,12 +493,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Unnamed" />
       <item itemvalue="Application.ReOrderArray" />
       <item itemvalue="Application.FindFinalListNode" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.TrieTree" />
+      <item itemvalue="Spring Boot.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -462,6 +536,7 @@
       <workItem from="1565053384367" duration="17228000" />
       <workItem from="1565168606277" duration="3244000" />
       <workItem from="1565753280242" duration="1334000" />
+      <workItem from="1566381626985" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式（双重判断锁+静态内部类）">
       <created>1563342132686</created>
@@ -648,7 +723,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79915000" />
+    <option name="totallyTimeSpent" value="85547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,6 +736,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" type="WINDOWED" weight="0.2188755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -677,11 +753,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" visible="true" weight="0.16786227" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" visible="true" weight="0.22668579" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.58055556" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.37302727" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50066936" side_tool="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32916668" />
+      <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966533" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966533" />
@@ -799,68 +876,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/command/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/iterator/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/iterator/ConcreteIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/iterator/Aggregate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/iterator/ConcreteAggregate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/iterator/ConcreteAggregate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/iterator/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/iterator/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/mediator/Mediator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/mediator/Mediator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/mediator/Colleague.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/mediator/Colleague.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
@@ -874,7 +911,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/mediator/CPU.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/mediator/CPU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
@@ -891,7 +928,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/mediator/SoundCard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/mediator/SoundCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -904,7 +941,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/mediator/VedioCard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/mediator/VedioCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
@@ -915,35 +952,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/mediator/MainBoard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/mediator/MainBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/momento/white_box/Originator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/white_box/Originator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/mediator/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/mediator/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/mediator/CDdriver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/mediator/CDdriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/momento/black_box/CareTaker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/black_box/CareTaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -956,35 +993,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/momento/black_box/Momento4Out.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/black_box/Momento4Out.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/factory_method/Product1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/factory_method/Product1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/factory_method/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/factory_method/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/factory_method/FactoryMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/factory_method/FactoryMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/momento/black_box/Originator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/black_box/Originator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
@@ -995,21 +1032,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/momento/white_box/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/white_box/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/momento/white_box/Momento.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/white_box/Momento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/momento/white_box/CareTaker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/white_box/CareTaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
@@ -1022,42 +1059,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/momento/black_box/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/black_box/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/observer/Subject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/observer/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/observer/Observer1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/observer/Observer1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/observer/Observer2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/observer/Observer2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/bit_operation/NumberOf1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/bit_operation/NumberOf1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/observer/ConcreteSubject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/observer/ConcreteSubject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
@@ -1069,28 +1106,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/observer/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/observer/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/fbonacci/DoublePowerNum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/fbonacci/DoublePowerNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/search/ReOrderArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/search/ReOrderArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/ListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="27" />
@@ -1101,22 +1138,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/observer/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_pattern/observer/Client.java" />
     <entry file="file://$PROJECT_DIR$/tem.out.println(发起者改变之后当前状态为+originator.getState());" />
-    <entry file="file://$PROJECT_DIR$/src/common/ArrayTools.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/ArrayTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
           <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/sort/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
@@ -1126,94 +1157,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/sort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1445">
           <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/sort/HeapSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/sort/BucketSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/BucketSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/sort/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/sort/InsertSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/structure/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/list/FindFinalListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/FindFinalListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/sigleton/InnerClassSingleTon.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/sigleton/InnerClassSingleTon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/queue/TwoStackToQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/queue/TwoStackToQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/queue/ArrayQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/queue/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-402">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/queue/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/queue/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/tree/PreAndInToTree.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/PreAndInToTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arithmetic/search/MinNumberInRotateArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/search/MinNumberInRotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern_mooc/structural/proxy/db/DataSourceContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pattern_mooc/structural/proxy/db/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
