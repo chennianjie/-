@@ -34,14 +34,15 @@ public class DBPoolTest {
         public void run() {
             while (count > 0) {
                 try {
-                    SqlConnectImpl connection = (SqlConnectImpl)DBPool.fetchConnection(100);
+                    SqlConnectImpl connection = (SqlConnectImpl)DBPool.fetchConnection(1000);
                     if (connection==null) {
                         noGets.getAndIncrement();
                         System.out.println(Thread.currentThread().getName() + "：{}获取连接失败");
                     }else {
-                        System.out.println(Thread.currentThread().getName() + "获取连接成功【"+count+"】");
+//                        System.out.println(Thread.currentThread().getName() + "获取连接成功【"+count+"】");
                         try {
                             gets.getAndIncrement();
+                            connection.createStatement();
                             connection.commit();
                         } catch (SQLException e) {
                             e.printStackTrace();
@@ -61,12 +62,12 @@ public class DBPoolTest {
 
     public static void main(String[] args) throws InterruptedException {
         DBPool dbPool = new DBPool(10);
-        CountDownLatch countDownLatch = new CountDownLatch(20);
+        CountDownLatch countDownLatch = new CountDownLatch(50);
         DBPoolTest.countDownLatch = countDownLatch;
         AtomicInteger gets = new AtomicInteger(0);
         AtomicInteger noGets = new AtomicInteger(0);
-        for (int i = 0;i < 20; i++){
-            new Thread(new Worker(50,gets,noGets), "thread_"+i).start();
+        for (int i = 0;i < 50; i++){
+            new Thread(new Worker(20,gets,noGets), "thread_"+i).start();
         }
         countDownLatch.await();
         System.out.println("一共获取的连接数："+1000);

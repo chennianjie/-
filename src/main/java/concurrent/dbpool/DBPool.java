@@ -30,7 +30,7 @@ public class DBPool {
                 while (pool.isEmpty()) {
                     pool.wait();
                 }
-                return pool.getFirst();
+                return pool.removeFirst();
             }else {
                 long overTime = ms + System.currentTimeMillis();//超时时间 = 等待时间 + 当前时间
                 long waitTime = ms;
@@ -43,7 +43,7 @@ public class DBPool {
                 if (pool.isEmpty()) {
                     return null;
                 }
-                return pool.getFirst();
+                return pool.removeFirst();
             }
         }
     }
@@ -54,7 +54,11 @@ public class DBPool {
      */
     public static void release(Connection conn) {
         if (conn!=null) {
-            pool.addLast(conn);
+            synchronized (pool) {
+                pool.addLast(conn);
+                //唤醒其他线程
+                pool.notifyAll();
+            }
         }
     }
 }

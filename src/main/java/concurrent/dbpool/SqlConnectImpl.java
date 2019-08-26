@@ -24,7 +24,7 @@ public class SqlConnectImpl implements Connection {
 
     @Override
     public Statement createStatement() throws SQLException {
-        SleepTools.ms(70);
+        SleepTools.ms(1);
         return null;
     }
 
@@ -55,7 +55,7 @@ public class SqlConnectImpl implements Connection {
 
     @Override
     public void commit() throws SQLException {
-        SleepTools.ms(100);
+        SleepTools.ms(70);
     }
 
     @Override
