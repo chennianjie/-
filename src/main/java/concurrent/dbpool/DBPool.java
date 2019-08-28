@@ -25,14 +25,16 @@ public class DBPool {
      */
     public static Connection fetchConnection(int ms) throws InterruptedException {
         synchronized (pool) {
-            if (ms <= 0) {//等待时间小于0时候
+            //等待时间小于0时候
+            if (ms <= 0) {
                 //判断连接池中是否含有连接，加锁
                 while (pool.isEmpty()) {
                     pool.wait();
                 }
                 return pool.removeFirst();
             }else {
-                long overTime = ms + System.currentTimeMillis();//超时时间 = 等待时间 + 当前时间
+                //超时时间 = 等待时间 + 当前时间
+                long overTime = ms + System.currentTimeMillis();
                 long waitTime = ms;
                 //有等待时间和连接池为空时等待
                 while (pool.isEmpty() && waitTime > 0){

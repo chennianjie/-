@@ -13,7 +13,7 @@ public class DBPoolTest {
     static private CountDownLatch countDownLatch;
 
     public DBPoolTest(CountDownLatch countDownLatch) {
-        this.countDownLatch = countDownLatch;
+        DBPoolTest.countDownLatch = countDownLatch;
     }
 
     static class Worker implements Runnable{

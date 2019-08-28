@@ -159,12 +159,12 @@ public class SqlConnectImpl implements Connection {
     }
 
     @Override
-    public Savepoint setSavepoint(String name) throws SQLException {
+    public Savepoint setSavepoint(String name) {
         return null;
     }
 
     @Override
-    public void rollback(Savepoint savepoint) throws SQLException {
+    public void rollback(Savepoint savepoint) {
 
     }
 

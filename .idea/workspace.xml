@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CommonInterviewProblems.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CommonInterviewProblems.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_org_springframework_jdbc_3_1_2_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/problems/PrintDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/problems/PrintParityNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPoolTest.java" afterDir="false" />
@@ -41,24 +41,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/dbpool/SqlConnectImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPoolTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="412">
+              <caret line="69" column="67" selection-start-line="69" selection-start-column="67" selection-end-line="69" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPool.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/problems/PrintParityNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="221">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,24 +65,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPoolTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/problems/PrintDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-268">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-              </folding>
+            <state>
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/common/SleepTools.java">
+        <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
+              <folding>
+                <element signature="e#15704#15705#0" expanded="true" />
+                <element signature="e#15770#15771#0" expanded="true" />
+                <element signature="e#19132#19133#0" expanded="true" />
+                <element signature="e#19175#19176#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,14 +99,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>target</find>
+      <find>ThreadPrintDemo2</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>PrintDemo1</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design_mode/iterator/ConcreteAggregate.java" />
-        <option value="$PROJECT_DIR$/src/design_mode/iterator/Client.java" />
         <option value="$PROJECT_DIR$/src/design_mode/mediator/Mediator.java" />
         <option value="$PROJECT_DIR$/src/design_mode/mediator/Colleague.java" />
         <option value="$PROJECT_DIR$/src/design_mode/mediator/CDdriver.java" />
@@ -154,9 +160,11 @@
         <option value="$PROJECT_DIR$/src/main/java/list/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/SleepTools.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/dbpool/SqlConnectImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPoolTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/dbpool/SqlConnectImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/problems/PrintDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/problems/PrintParityNum.java" />
       </list>
     </option>
   </component>
@@ -179,8 +187,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
+    <option name="x" value="155" />
+    <option name="y" value="80" />
+    <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -193,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,7 +233,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
@@ -234,20 +242,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="dbpool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -282,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DBPoolTest">
+  <component name="RunManager" selected="Application.PrintParityNum">
     <configuration name="DBPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrent.dbpool.DBPoolTest" />
       <module name="CommonInterviewProblems" />
@@ -296,12 +296,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.sort.MergeSort" />
+    <configuration name="PrintDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.problems.PrintDemo1" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithmetic.sort.*" />
+          <option name="PATTERN" value="concurrent.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintParityNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.problems.PrintParityNum" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,19 +342,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrieTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.structure.TrieTree" />
-      <module name="CommonInterviewProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arithmetic.structure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="CommonInterviewProblems" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -350,20 +350,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.TrieTree" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Spring Boot.Unnamed" />
       <item itemvalue="Application.DBPoolTest" />
+      <item itemvalue="Spring Boot.Unnamed" />
+      <item itemvalue="Application.PrintDemo1" />
+      <item itemvalue="Application.PrintParityNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintParityNum" />
+        <item itemvalue="Application.PrintDemo1" />
         <item itemvalue="Application.DBPoolTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.TrieTree" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +395,9 @@
       <workItem from="1565753280242" duration="1334000" />
       <workItem from="1566381626985" duration="692000" />
       <workItem from="1566462285059" duration="6198000" />
-      <workItem from="1566788420683" duration="6509000" />
+      <workItem from="1566788420683" duration="7048000" />
+      <workItem from="1566871291808" duration="1375000" />
+      <workItem from="1566962568104" duration="5345000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式（双重判断锁+静态内部类）">
       <created>1563342132686</created>
@@ -593,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566812798513</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fix">
+      <created>1566813258610</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1566813258610</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers>
       <JIRA url="http://jirag.int.thomsonreuters.com">
         <option name="apiType" value="REST_2_0" />
@@ -603,7 +612,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98254000" />
+    <option name="totallyTimeSpent" value="105513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +627,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.66917294" visible="true" weight="0.22088353" />
+      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.66917294" visible="true" weight="0.33266398" />
       <window_info id="Structure" order="1" sideWeight="0.33082706" side_tool="true" weight="0.42068964" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -627,8 +636,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986613" visible="true" weight="0.22525108" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49933067" weight="0.39885223" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986613" visible="true" weight="0.19942611" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49933067" weight="0.312769" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
@@ -741,7 +750,6 @@
     <MESSAGE value="备忘录模式（黑箱版）  fix" />
     <MESSAGE value="观察者设计模式" />
     <MESSAGE value="剑指Offer面试题11（Java版）：数值的整数次方" />
-    <MESSAGE value="fix" />
     <MESSAGE value="数组查找奇偶" />
     <MESSAGE value="查找结点倒数的数" />
     <MESSAGE value="数组工具类" />
@@ -753,7 +761,8 @@
     <MESSAGE value="快速排序" />
     <MESSAGE value="多线程测试连接池" />
     <MESSAGE value="集合特性测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合特性测试" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -764,6 +773,12 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://C:/JayChen/developApps/java/jre/lib/rt.jar!/java/awt/EventQueue.class</url>
+          <line>63</line>
+          <properties field="appContext" class="java.awt.EventQueue" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -772,102 +787,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/white_box/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/white_box/Momento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/white_box/CareTaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/momento/black_box/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/observer/Observer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/observer/Observer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/bit_operation/NumberOf1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/fbonacci/DoublePowerNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/search/ReOrderArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/observer/Client.java" />
-    <entry file="file://$PROJECT_DIR$/tem.out.println(发起者改变之后当前状态为+originator.getState());" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/ArrayTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1075,13 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/SleepTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-909">
@@ -1091,32 +1003,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/dbpool/SqlConnectImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#3274#3275#0" expanded="true" />
+            <element signature="e#3301#3302#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPoolTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-268">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/ArrayTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        <state relative-caret-position="442">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/SleepTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/MyRuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/command/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/command/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/command/LightOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/command/LightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/design_pattern/command/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JayChen/developApps/java/jre/lib/rt.jar!/java/awt/EventQueue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="69" column="67" selection-start-line="69" selection-start-column="67" selection-end-line="69" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#19132#19133#0" expanded="true" />
+            <element signature="e#19175#19176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/problems/PrintDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/problems/PrintParityNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
