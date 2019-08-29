@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/problems/PrintDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/problems/PrintParityNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/ForkjoinSumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/NormalSumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/RandomArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/thread_pool/ThreadPoolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/dbpool/DBPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/dbpool/SqlConnectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/dbpool/SqlConnectImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +49,54 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/problems/PrintParityNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            <state relative-caret-position="476">
+              <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread_pool/ThreadPoolTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1566983925032" expanded="true" signature="359:516" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/RandomArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/NormalSumArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/ForkjoinSumArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design_mode/mediator/Mediator.java" />
-        <option value="$PROJECT_DIR$/src/design_mode/mediator/Colleague.java" />
-        <option value="$PROJECT_DIR$/src/design_mode/mediator/CDdriver.java" />
-        <option value="$PROJECT_DIR$/src/design_mode/mediator/SoundCard.java" />
         <option value="$PROJECT_DIR$/src/design_mode/mediator/VedioCard.java" />
         <option value="$PROJECT_DIR$/src/design_mode/mediator/Client.java" />
         <option value="$PROJECT_DIR$/src/design_mode/mediator/CPU.java" />
@@ -165,6 +201,10 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrent/dbpool/SqlConnectImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/problems/PrintDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/problems/PrintParityNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread_pool/ThreadPoolTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/RandomArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/NormalSumArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/ForkjoinSumArray.java" />
       </list>
     </option>
   </component>
@@ -186,10 +226,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="155" />
-    <option name="y" value="80" />
-    <option name="width" value="980" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -243,6 +282,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="forkjoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="forkjoin" type="462c0819:PsiDirectoryNode" />
+              <item name="sumarray" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -282,13 +340,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrintParityNum">
+  <component name="RunManager" selected="Application.ForkjoinSumArray">
     <configuration name="DBPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrent.dbpool.DBPoolTest" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="concurrent.dbpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForkjoinSumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.forkjoin.sumarray.ForkjoinSumArray" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.forkjoin.sumarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,22 +393,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.Test" />
+    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.thread_pool.ThreadPoolTest" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.*" />
+          <option name="PATTERN" value="concurrent.thread_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="CommonInterviewProblems" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -350,20 +414,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.DBPoolTest" />
       <item itemvalue="Spring Boot.Unnamed" />
       <item itemvalue="Application.PrintDemo1" />
       <item itemvalue="Application.PrintParityNum" />
+      <item itemvalue="Application.ThreadPoolTest" />
+      <item itemvalue="Application.ForkjoinSumArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForkjoinSumArray" />
+        <item itemvalue="Application.ThreadPoolTest" />
         <item itemvalue="Application.PrintParityNum" />
         <item itemvalue="Application.PrintDemo1" />
         <item itemvalue="Application.DBPoolTest" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +461,7 @@
       <workItem from="1566462285059" duration="6198000" />
       <workItem from="1566788420683" duration="7048000" />
       <workItem from="1566871291808" duration="1375000" />
-      <workItem from="1566962568104" duration="5345000" />
+      <workItem from="1566962568104" duration="13477000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式（双重判断锁+静态内部类）">
       <created>1563342132686</created>
@@ -602,7 +666,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566813258610</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix">
+      <created>1566977942336</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1566977942336</updated>
+    </task>
+    <task id="LOCAL-00031" summary="两个线程交替打印奇偶数">
+      <created>1566977989618</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1566977989618</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers>
       <JIRA url="http://jirag.int.thomsonreuters.com">
         <option name="apiType" value="REST_2_0" />
@@ -612,7 +690,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105513000" />
+    <option name="totallyTimeSpent" value="113645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,10 +702,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.66917294" visible="true" weight="0.33266398" />
+      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.66917294" weight="0.28689656" />
       <window_info id="Structure" order="1" sideWeight="0.33082706" side_tool="true" weight="0.42068964" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -636,16 +714,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986613" visible="true" weight="0.19942611" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49933067" weight="0.312769" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986613" weight="0.3263158" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49933067" weight="0.32243684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" weight="0.18794835" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49732262" weight="0.15208034" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.37302727" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50066936" side_tool="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026774" side_tool="true" weight="0.15208034" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32855093" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32998565" />
@@ -660,8 +738,8 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.66917294" visible="true" weight="0.42068964" />
-      <window_info id="Structure" order="1" sideWeight="0.33082706" side_tool="true" visible="true" weight="0.42068964" />
+      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.66917294" visible="true" weight="0.28689656" />
+      <window_info id="Structure" order="1" sideWeight="0.33082706" side_tool="true" weight="0.42068964" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -669,16 +747,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986613" visible="true" weight="0.22094691" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49933067" weight="0.39885223" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986613" visible="true" weight="0.3263158" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49933067" weight="0.32243684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" weight="0.22668579" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49732262" weight="0.15208034" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.37302727" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50066936" side_tool="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026774" side_tool="true" weight="0.15208034" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32855093" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32998565" />
@@ -737,7 +815,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="工厂方法模式" />
     <MESSAGE value="抽象工厂模式" />
     <MESSAGE value="生成器/构造器模式" />
     <MESSAGE value="原型模式   构造行为的模式结束" />
@@ -762,7 +839,8 @@
     <MESSAGE value="多线程测试连接池" />
     <MESSAGE value="集合特性测试" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="两个线程交替打印奇偶数" />
+    <option name="LAST_COMMIT_MESSAGE" value="两个线程交替打印奇偶数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -772,6 +850,12 @@
           <line>34</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/ForkjoinSumArray.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>jar://C:/JayChen/developApps/java/jre/lib/rt.jar!/java/awt/EventQueue.class</url>
@@ -787,37 +871,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/BucketSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -1141,8 +1194,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/problems/PrintParityNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="476">
+          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread_pool/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="24" column="65" lean-forward="true" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1566983925032" expanded="true" signature="359:516" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/RandomArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/NormalSumArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/ForkjoinSumArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
