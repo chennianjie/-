@@ -1,5 +1,7 @@
 package concurrent.forkjoin.sumarray;
 
+import common.SleepTools;
+
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
@@ -34,6 +36,7 @@ public class ForkjoinSumArray extends RecursiveTask<Integer> {
             }
             return result;
         } else {
+            SleepTools.ms(100);
             //继续拆分任务
             int mid = (toIndex + fromIndex)/2;
             ForkjoinSumArray left = new ForkjoinSumArray(src, fromIndex, mid);
@@ -51,6 +54,7 @@ public class ForkjoinSumArray extends RecursiveTask<Integer> {
 
         ForkjoinSumArray forkjoinSumArray = new ForkjoinSumArray(randomArray, 0, randomArray.length - 1);
         ForkJoinPool pool = new ForkJoinPool();
+        //同步执行
         pool.invoke(forkjoinSumArray);
         System.out.println("Result:" + forkjoinSumArray.join());
         System.out.println("Result:" + NormalSumArray.sum(randomArray));

@@ -7,7 +7,7 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveAction;
 
 /**
- * @Description: 过滤遍历特定文件
+ * @Description: 遍历特定文件
  * RecursiveAction  forkjoin中执行行为
  * @Author: nianjie.chen
  * @Date: 8/30/2019
