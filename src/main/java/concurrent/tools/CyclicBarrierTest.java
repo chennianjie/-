@@ -22,7 +22,7 @@ public class CyclicBarrierTest {
         System.out.println("主线程执行结束");
     }
 
-    //定义栅栏类
+    //定义栅栏类,当所有线程都到了栅栏的位置的时候，先执行CollectResultThread线程
     private static CyclicBarrier cyclicBarrier = new CyclicBarrier(5,new CollectResultThread());
     //统计结果需要的容器
     private static ConcurrentHashMap<String, String> map = new ConcurrentHashMap<>();
@@ -31,11 +31,13 @@ public class CyclicBarrierTest {
 
         @Override
         public void run() {
-            System.out.println(Thread.currentThread().getName() + "线程开始执行");
-            System.out.println(Thread.currentThread().getName() + "线程开始等待");
+            String threadName = Thread.currentThread().getName();
+            System.out.println(threadName + "线程开始执行");
+            System.out.println(threadName + "线程开始等待");
+            map.put(threadName,threadName + "线程");
             try {
                 cyclicBarrier.await();
-                System.out.println(Thread.currentThread().getName() + "线程执行完成");
+                System.out.println(threadName + "线程执行完成");
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } catch (BrokenBarrierException e) {
