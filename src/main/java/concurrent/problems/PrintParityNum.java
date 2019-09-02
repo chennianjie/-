@@ -7,6 +7,8 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 设计两个线程，交替打印100以内的奇偶数
  */
 public class PrintParityNum {
+    //默认false
+    static private boolean defaultBoolean;
 
     static Integer cxsNum = 0;
     static volatile boolean flag = false;
@@ -19,15 +21,14 @@ public class PrintParityNum {
 //        thread2.start();
 //        countDownLatch.await();
 //        System.out.println("demo1==>执行结束");
-
         System.out.println("===使用CAS方式控制开始===");
         new Thread(() -> {
             while (cxsNum < 100) {
                 if (!flag && cxsNum%2 == 0) {
                     System.out.println(Thread.currentThread().getName() + ":" + cxsNum);
                     cxsNum++;
+                    flag = !flag;
                 }
-                flag = !flag;
             }
         },"偶数").start();
 
@@ -37,8 +38,8 @@ public class PrintParityNum {
 
                     System.out.println(Thread.currentThread().getName() + ":" + cxsNum);
                     cxsNum++;
+                    flag = !flag;
                 }
-                flag = !flag;
             }
         },"奇数").start();
         System.out.println("===使用CAS方式控制结束===");
