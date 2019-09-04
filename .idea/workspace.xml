@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/FutureAndFutureTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/atomic/AbaProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/atomic/AtomicReferenceStampTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/problems/HalfAtomicInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,11 +97,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/atomic/AtomicReferenceStampTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="314">
+              <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/problems/HalfAtomicInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design_mode/momento/black_box/CareTaker.java" />
         <option value="$PROJECT_DIR$/src/design_mode/momento/black_box/Originator.java" />
         <option value="$PROJECT_DIR$/src/design_mode/momento/black_box/Client.java" />
         <option value="$PROJECT_DIR$/src/design_mode/observer/Subjext.java" />
@@ -205,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrent/FutureAndFutureTaskTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/atomic/StampAtomicReferenceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/atomic/AtomicReferenceStampTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/problems/HalfAtomicInt.java" />
       </list>
     </option>
   </component>
@@ -520,7 +531,7 @@
       <workItem from="1566871291808" duration="1375000" />
       <workItem from="1566962568104" duration="22668000" />
       <workItem from="1567388346784" duration="13183000" />
-      <workItem from="1567504102735" duration="912000" />
+      <workItem from="1567504102735" duration="1687000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式（双重判断锁+静态内部类）">
       <created>1563342132686</created>
@@ -788,7 +799,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567476702770</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="fix">
+      <created>1567576898295</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1567576898295</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers>
       <JIRA url="http://jirag.int.thomsonreuters.com">
         <option name="apiType" value="REST_2_0" />
@@ -798,7 +816,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136931000" />
+    <option name="totallyTimeSpent" value="137706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -831,7 +849,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49732262" weight="0.76327115" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.37302727" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026774" side_tool="true" weight="0.15208034" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026774" side_tool="true" visible="true" weight="0.043041606" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32855093" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32998565" />
@@ -945,10 +963,10 @@
     <MESSAGE value="countDownCount和CyclicBarrier测试demo" />
     <MESSAGE value="CountDownCount和CyclicBarrier测试demo" />
     <MESSAGE value="forkjoin异步执行文件检索" />
-    <MESSAGE value="fix" />
     <MESSAGE value="semaphore使用" />
     <MESSAGE value="exchange类使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="exchange类使用" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -985,13 +1003,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/search/MinNumberInRotateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/reflect/InvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1358,8 +1369,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/atomic/AtomicReferenceStampTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="314">
+          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/problems/HalfAtomicInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
