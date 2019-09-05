@@ -26,6 +26,11 @@ public class TestLockSupport {
             System.out.println(Thread.currentThread().getName() + "被唤醒。");
         });
 
+
+        Thread thread3 = new Thread(() -> {
+            System.out.println(Thread.currentThread().getName() + "执行完成。");
+        });
+
         //启动线程
         thread1.start();
         thread2.start();
@@ -38,5 +43,15 @@ public class TestLockSupport {
 
         System.out.println("准备唤醒线程1");
         LockSupport.unpark(thread2);
+
+        thread3.start();
+        SleepTools.ms(1000);
+        System.out.println("线程2被阻塞");
+        LockSupport.park(thread3);
+        //此时无法释放线程2，线程2将一直处于阻塞状态
+        System.out.println("线程2释放");
+        LockSupport.unpark(thread3);
+
+
     }
 }

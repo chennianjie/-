@@ -4,11 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/lock/rw/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/lock/rw/GoodInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/lock/rw/GoodService.java" afterDir="false" />
+    <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/lock/locksupport/TestLockSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/lock/locksupport/TestLockSupport.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,11 +75,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/lock/rw/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="187">
+              <caret line="14" selection-start-line="5" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/lock/locksupport/TestLockSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design_mode/observer/Observer1.java" />
         <option value="$PROJECT_DIR$/src/design_mode/observer/Observer2.java" />
         <option value="$PROJECT_DIR$/src/design_mode/observer/ConcreteSubject.java" />
         <option value="$PROJECT_DIR$/src/design_mode/observer/Client.java" />
@@ -186,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrent/lock/rw/SynGoodService.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/lock/rw/ReadWriteService.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/lock/rw/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/lock/locksupport/TestLockSupport.java" />
       </list>
     </option>
   </component>
@@ -256,7 +266,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="locksupport" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.TestLockSupport">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrent.lock.rw.Client" />
       <module name="CommonInterviewProblems" />
@@ -323,12 +360,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.tools.SemaphoreTest" />
+    <configuration name="StampAtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.atomic.StampAtomicReferenceTest" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.tools.*" />
+          <option name="PATTERN" value="concurrent.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,12 +373,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StampAtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.atomic.StampAtomicReferenceTest" />
+    <configuration name="TestLockSupport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.lock.locksupport.TestLockSupport" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.atomic.*" />
+          <option name="PATTERN" value="concurrent.lock.locksupport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,20 +407,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SemaphoreTest" />
       <item itemvalue="Application.UseExchange" />
       <item itemvalue="Application.FutureAndFutureTaskTest" />
       <item itemvalue="Application.StampAtomicReferenceTest" />
       <item itemvalue="Spring Boot.Unnamed" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.TestLockSupport" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLockSupport" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.StampAtomicReferenceTest" />
         <item itemvalue="Application.FutureAndFutureTaskTest" />
         <item itemvalue="Application.UseExchange" />
-        <item itemvalue="Application.SemaphoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +456,7 @@
       <workItem from="1566871291808" duration="1375000" />
       <workItem from="1566962568104" duration="22668000" />
       <workItem from="1567388346784" duration="13183000" />
-      <workItem from="1567504102735" duration="7386000" />
+      <workItem from="1567504102735" duration="10999000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式（双重判断锁+静态内部类）">
       <created>1563342132686</created>
@@ -701,7 +738,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567577671681</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="读写锁的使用">
+      <created>1567588760473</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1567588760473</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix">
+      <created>1567651612568</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1567651612568</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers>
       <JIRA url="http://jirag.int.thomsonreuters.com">
         <option name="apiType" value="REST_2_0" />
@@ -711,7 +762,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143405000" />
+    <option name="totallyTimeSpent" value="147018000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -735,16 +786,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49799198" visible="true" weight="0.3687231" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49799198" visible="true" weight="0.46341464" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49933067" weight="0.32243684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49732262" weight="0.76327115" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49732262" weight="0.1420373" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.37302727" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502008" side_tool="true" visible="true" weight="0.3687231" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502008" side_tool="true" weight="0.3687231" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32855093" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32998565" />
@@ -836,7 +887,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="备忘录模式（白箱版）" />
     <MESSAGE value="备忘录模式（黑箱版） --暂时提交" />
     <MESSAGE value="备忘录模式（黑箱版）  fix" />
     <MESSAGE value="观察者设计模式" />
@@ -860,6 +910,7 @@
     <MESSAGE value="forkjoin异步执行文件检索" />
     <MESSAGE value="semaphore使用" />
     <MESSAGE value="exchange类使用" />
+    <MESSAGE value="读写锁的使用" />
     <MESSAGE value="fix" />
     <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
@@ -904,7 +955,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pattern_mooc/behavioral/iterator/CourseAggregate.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pattern_mooc/behavioral/iterator/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pattern_mooc/creational/singleton/ContainerSingleton.java" />
     <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/String.java">
@@ -1318,8 +1368,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/lock/rw/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="5" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/lock/locksupport/TestLockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
