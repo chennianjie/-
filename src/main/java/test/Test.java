@@ -1,7 +1,12 @@
+package test;
+
 public class Test {
 
 
     public static void main(String[] args) {
+
+
+
         String test = ",, ,chennianjie,";
         System.out.println(Test.trim(test));
         System.out.println(Test.trim(test).trim());
