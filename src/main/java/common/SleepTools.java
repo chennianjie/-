@@ -8,7 +8,7 @@ public class SleepTools {
      * 按s睡眠
      * @param seconds
      */
-    public static final void second(int seconds) {
+    public static final void s(int seconds) {
         try {
             TimeUnit.SECONDS.sleep(seconds);
         } catch (InterruptedException e) {

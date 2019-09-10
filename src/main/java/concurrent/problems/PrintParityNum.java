@@ -1,7 +1,6 @@
 package concurrent.problems;
 
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 设计两个线程，交替打印100以内的奇偶数
