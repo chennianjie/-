@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/tree/CreateMirrorTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/tree/IsMirro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,41 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-476">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="600" column="31" selection-start-line="600" selection-start-column="31" selection-end-line="600" selection-end-column="31" />
-              <folding>
-                <element signature="e#19103#19104#0" expanded="true" />
-                <element signature="e#19161#19162#0" expanded="true" />
-                <element signature="e#19327#19328#0" expanded="true" />
-                <element signature="e#19410#19411#0" expanded="true" />
-                <element signature="e#24331#24332#0" expanded="true" />
-                <element signature="e#24396#24397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/concurrent/BlockingDeque.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="207" column="7" selection-start-line="207" selection-start-column="7" selection-end-line="207" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,11 +81,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/HasSubTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="307">
+              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/IsMirro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/CreateMirrorTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -133,19 +134,6 @@
               <folding>
                 <element signature="e#211#212#0" expanded="true" />
                 <element signature="e#241#242#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
-              <caret line="157" column="36" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="36" />
-              <folding>
-                <element signature="e#6283#6284#0" expanded="true" />
-                <element signature="e#6351#6352#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,8 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/arithmetic/sort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/arithmetic/sort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/arithmetic/sort/HaepSort.java" />
         <option value="$PROJECT_DIR$/src/arithmetic/sort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/arithmetic/sort/BucketSort.java" />
@@ -240,6 +226,8 @@
         <option value="$PROJECT_DIR$/src/main/java/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/HasSubTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/IsMirro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/CreateMirrorTree.java" />
       </list>
     </option>
   </component>
@@ -309,6 +297,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
@@ -511,7 +508,7 @@
       <workItem from="1566962568104" duration="22668000" />
       <workItem from="1567388346784" duration="13183000" />
       <workItem from="1567504102735" duration="12426000" />
-      <workItem from="1567993148862" duration="35478000" />
+      <workItem from="1567993148862" duration="40231000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式（双重判断锁+静态内部类）">
       <created>1563342132686</created>
@@ -842,7 +839,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568164385114</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="判断一个树是否为另一个树的子树">
+      <created>1568271519607</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1568271519607</updated>
+    </task>
+    <task id="LOCAL-00049" summary="判断一个树是否为另一个树的子树">
+      <created>1568271536864</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1568271536864</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers>
       <JIRA url="http://jirag.int.thomsonreuters.com">
         <option name="apiType" value="REST_2_0" />
@@ -852,7 +863,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183923000" />
+    <option name="totallyTimeSpent" value="188676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -867,8 +878,8 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.6241033" visible="true" weight="0.19076306" />
-      <window_info id="Structure" order="1" sideWeight="0.3758967" side_tool="true" visible="true" weight="0.19076306" />
+      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.77504104" visible="true" weight="0.19076306" />
+      <window_info id="Structure" order="1" sideWeight="0.22495896" side_tool="true" visible="true" weight="0.19076306" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -882,7 +893,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49732262" weight="0.16642755" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49732262" visible="true" weight="0.12625538" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.18651363" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502008" side_tool="true" weight="0.3687231" />
@@ -977,7 +988,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="查找结点倒数的数" />
     <MESSAGE value="数组工具类" />
     <MESSAGE value="冒泡排序" />
     <MESSAGE value="归并排序" />
@@ -1002,7 +1012,8 @@
     <MESSAGE value="transient和对象序列化" />
     <MESSAGE value="自定义实现独占锁" />
     <MESSAGE value="递归合并两个有序链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归合并两个有序链表" />
+    <MESSAGE value="判断一个树是否为另一个树的子树" />
+    <option name="LAST_COMMIT_MESSAGE" value="判断一个树是否为另一个树的子树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1105,37 +1116,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/RandomArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/NormalSumArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/tools/CountDownLaunchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/tools/CyclicBarrierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/filesfilter/FileFilterTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1576,8 +1556,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/HasSubTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="307">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/IsMirro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/CreateMirrorTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
         </state>
       </provider>
     </entry>
