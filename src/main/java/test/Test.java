@@ -1,11 +1,24 @@
 package test;
 
+
 public class Test {
 
-
+    static final int tableSizeFor(int cap) {
+        int n = cap - 1;
+        n |= n >>> 1;
+        n |= n >>> 2;
+        n |= n >>> 4;
+        n |= n >>> 8;
+        n |= n >>> 16;
+        return (n < 0) ? 1 : (n >= Integer.MAX_VALUE) ? Integer.MAX_VALUE : n + 1;
+    }
     public static void main(String[] args) {
+        int i = Test.tableSizeFor(30);
 
-
+        float v = 0.0f / 0.0f;
+        //返回一个数的平方根
+        Math.sqrt(-1);
+        System.out.println(v);
 
         String test = ",, ,chennianjie,";
         System.out.println(Test.trim(test));
