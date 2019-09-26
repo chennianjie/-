@@ -11,6 +11,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.BlockingDeque;
+import java.util.concurrent.BlockingQueue;
 
 /**
  * @Description:调用存过向Icremental表插入数据
@@ -19,7 +20,7 @@ import java.util.concurrent.BlockingDeque;
  */
 public class ImportTask implements Runnable {
 
-    private BlockingDeque<IncrementalStg> incQueue;
+    private BlockingQueue<IncrementalStg> incQueue;
     private String fileName;
     private String uuid;
     private int batch_index;
@@ -28,7 +29,7 @@ public class ImportTask implements Runnable {
     public ImportTask() {
     }
 
-    public ImportTask(BlockingDeque<IncrementalStg> incQueue, String fileName, String uuid, Connection connection) {
+    public ImportTask(BlockingQueue<IncrementalStg> incQueue, String fileName, String uuid, Connection connection) {
         this.incQueue = incQueue;
         this.fileName = fileName;
         this.uuid = uuid;

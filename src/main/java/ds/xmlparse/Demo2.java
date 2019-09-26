@@ -96,8 +96,8 @@ public class Demo2 {
         SAXParser parser = factory.newSAXParser();
         // 创建xml读取器，绑定事件处理器
         XMLReader reader = parser.getXMLReader();
-        UUID.randomUUID().toString();
-        GetStuInfoHandler2 stuHandler = new GetStuInfoHandler2(file.getName(), UUID.randomUUID().toString());
+        String uuid = UUID.randomUUID().toString();
+        GetStuInfoHandler2 stuHandler = new GetStuInfoHandler2(file.getName(), uuid);
         reader.setContentHandler(stuHandler);
         reader.parse(file.getAbsolutePath());
         // reader.parse("C:\\Users\\U6079438\\Desktop\\RDC2017042690819617.DAT");
@@ -106,7 +106,7 @@ public class Demo2 {
         //启动多个线程读取queue
         int TASK_THREAD = 10;
         for (int i = 0; i < 10; i++) {
-            new Thread(new ImportTask(incQueue, file.getName(), ))
+            new Thread(new ImportTask(incQueue, file.getName(), uuid, OracleConnection.getConnection()));
         }
 
         System.out.println("花费的时间是："+ (end - start));
