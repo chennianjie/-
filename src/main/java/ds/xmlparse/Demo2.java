@@ -15,10 +15,10 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.*;
 import java.util.*;
-import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.atomic.AtomicInteger;
 
 
 /**
@@ -28,12 +28,25 @@ import java.util.concurrent.LinkedBlockingQueue;
  * @Author: nianjie.chen
  * @Date: 9/23/2019
  */
-public class Demo2 {
+public class Demo2 implements Runnable{
+    public static CountDownLatch countDownLatch = new CountDownLatch(1);
+
+    public static AtomicInteger batch_index = new AtomicInteger(1);
+
+    public static AtomicInteger count = new AtomicInteger(0);
+
+    public static BlockingQueue<IncrementalStg> incQueue = new LinkedBlockingQueue<>();
+
+    public  File file;
 
     private final static IncrementalStg DUMMY = new IncrementalStg();
 
     public static IncrementalStg getDUMMY() {
         return DUMMY;
+    }
+
+    public Demo2(File file) {
+        this.file = file;
     }
 
     private static List<File> getLocalAbsFiles(String localPath) {
@@ -88,39 +101,61 @@ public class Demo2 {
         return propertyIdList;
     }
 
-
-    public static void excute(File file) throws ParserConfigurationException, SAXException, IOException{
+    @Override
+    public void run() {
         Long start = System.currentTimeMillis();
         // 创建解析器工厂、获取解析器
         SAXParserFactory factory = SAXParserFactory.newInstance();
-        SAXParser parser = factory.newSAXParser();
-        // 创建xml读取器，绑定事件处理器
-        XMLReader reader = parser.getXMLReader();
-        String uuid = UUID.randomUUID().toString();
-        GetStuInfoHandler2 stuHandler = new GetStuInfoHandler2(file.getName(), uuid);
-        reader.setContentHandler(stuHandler);
-        reader.parse(file.getAbsolutePath());
-        // reader.parse("C:\\Users\\U6079438\\Desktop\\RDC2017042690819617.DAT");
-        BlockingQueue<IncrementalStg> incQueue = stuHandler.GetStuList();
-        Long end = System.currentTimeMillis();
-        //启动多个线程读取queue
-        int TASK_THREAD = 10;
-        for (int i = 0; i < 10; i++) {
-            new Thread(new ImportTask(incQueue, file.getName(), uuid, OracleConnection.getConnection()));
+        SAXParser parser = null;
+        try {
+            parser = factory.newSAXParser();
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
         }
-
-        System.out.println("花费的时间是："+ (end - start));
-        System.out.println(incQueue.size());
+        // 创建xml读取器，绑定事件处理器
+        try {
+            XMLReader reader = parser.getXMLReader();
+            String uuid = UUID.randomUUID().toString();
+            System.out.println("解析文件开始{"+file.getName()+"}" + "====== uuid{"+uuid+"}");
+            GetStuInfoHandler2 stuHandler = new GetStuInfoHandler2(file.getName(), uuid);
+            reader.setContentHandler(stuHandler);
+            reader.parse(file.getAbsolutePath());
+            incQueue.add(DUMMY);
+            System.out.println("文件解析完成{"+file.getName()+"}" + "====== uuid{"+uuid+"}" + "=====" + "queueSize{"+incQueue.size()+"}");
+            Long end = System.currentTimeMillis();
+            System.out.println("花费的时间是："+ (end - start));
+        } catch (SAXException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
-    public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
-        List<File> localAbsFiles = getLocalAbsFiles("C:\\Users\\U6079438\\Desktop\\");
-        for (File file : localAbsFiles) {
-            //设置file_batch_uuid
-            System.out.println(file.getName());
-            excute(file);
+    public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException, InterruptedException {
+//        List<File> localAbsFiles = getLocalAbsFiles("C:\\Users\\U6079438\\Desktop\\");
+//        for (File file : localAbsFiles) {
+//            //设置file_batch_uuid
+//            System.out.println(file.getName());
+//            excute(file);
+//
+//        }
+        new Thread(new Demo2(new File("C:\\Users\\U6079438\\Desktop\\New folder\\RDC2018082500000067.FUL"))).start();
 
+        //启动多个线程读取queue
+        int TASK_THREAD = 20;
+        for (int i = 0; i < TASK_THREAD; i++) {
+            new Thread(new ImportTask(incQueue, "C:\\Users\\U6079438\\Desktop\\RDC2018082500000067.FUL", UUID.randomUUID().toString()
+                    , OracleConnection.getConnection())).start();
         }
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        countDownLatch.await();
+        System.out.println("处理的数据条数{}"+Demo2.count);
     }
 }
 
@@ -256,7 +291,7 @@ class GetStuInfoHandler2 extends DefaultHandler {
             }else {
                 inc.setReference_flag("N");
             }
-            incQueue.add(inc);//使用阻塞队列
+            Demo2.incQueue.add(inc);//使用阻塞队列
 //          incQueue.remove(inc);
             //pw.println(inc.toString());
         }

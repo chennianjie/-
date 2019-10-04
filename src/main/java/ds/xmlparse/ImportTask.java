@@ -1,5 +1,6 @@
 package ds.xmlparse;
 
+import ds.Demo;
 import oracle.jdbc.OracleCallableStatement;
 import oracle.sql.ARRAY;
 import oracle.sql.ArrayDescriptor;
@@ -10,7 +11,6 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.BlockingQueue;
 
 /**
@@ -23,9 +23,9 @@ public class ImportTask implements Runnable {
     private BlockingQueue<IncrementalStg> incQueue;
     private String fileName;
     private String uuid;
-    private int batch_index;
-    private Connection connection;
 
+    private Connection connection;
+    private OracleCallableStatement proc;
     public ImportTask() {
     }
 
@@ -33,7 +33,6 @@ public class ImportTask implements Runnable {
         this.incQueue = incQueue;
         this.fileName = fileName;
         this.uuid = uuid;
-        this.batch_index = batch_index;
         this.connection = connection;
     }
 
@@ -43,59 +42,71 @@ public class ImportTask implements Runnable {
         //从queue里面取出一批数据插入数据库
         boolean done = false;
 
-
-
-
-        OracleCallableStatement proc = null;
         List<IncrementalStg> incList = new ArrayList<>();
         try {
 
             while (!done){
                 IncrementalStg stg = incQueue.take();
                 if (stg == Demo2.getDUMMY()) {
-
+                    incQueue.put(stg);
+                    done = true;
+                }else {
+                    incList.add(stg);
+                }
+                if (incList.size() == 100){//需要写在配置文件中
+                    ///callInsertIncProcedure(incList);
+                    System.out.println("threadName{"+Thread.currentThread().getName()+"}" + "batch_id{"+Demo2.batch_index.getAndIncrement()+"}"+"Size{"+incList.size()+"}");
+                    Demo2.count.addAndGet(100);
+                    incList.clear();
                 }
             }
-            proc = (OracleCallableStatement) connection
-                    .prepareCall("{ call RDC_COLLECTED.RDC_INSERT_INC_PDP_PRC(?,?,?,?) }");
-
-            proc.setString(1, fileName);
-            proc.setString(2, uuid);
-            int bat_index = batch_index;
-            proc.setInt(3, bat_index);
-
-            //传入参数为istgList
-            ARRAY resultArr = tran2Oracle(connection, incList,
-                    bat_index);
-            proc.setARRAY(4, resultArr);
-
-            proc.execute();
-        } catch (SQLException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            if (!incList.isEmpty()) {
+                //callInsertIncProcedure(incList);
+                Demo2.countDownLatch.countDown();
+                System.out.println("threadName{"+Thread.currentThread().getName()+"}" + "batch_id{"+Demo2.batch_index.getAndIncrement()+"}"+"Size{"+incList.size()+"}");
+                Thread.sleep(20);
+                Demo2.count.addAndGet(incList.size());
+            }
 
         } catch (InterruptedException e) {
             Thread.interrupted();
             e.printStackTrace();
         } finally {
-            try {
-                if (proc != null) {
-                    proc.close();
-                    incList.clear();
-                }
-            } catch (SQLException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-            try {
-                if (connection != null) {
-                    connection.close();
-                }
-            }catch (SQLException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
+//            try {
+//                if (proc != null) {
+//                    proc.close();
+//                }
+//            } catch (SQLException e) {
+//                // TODO Auto-generated catch block
+//                e.printStackTrace();
+//            }
+//
+//            try {
+//                if (connection != null) {
+//                    connection.close();
+//                }
+//            }catch (SQLException e) {
+//                // TODO Auto-generated catch block
+//                e.printStackTrace();
+//            }
         }
+    }
+
+    private  void callInsertIncProcedure(List<IncrementalStg> incList) throws SQLException {
+        proc = (OracleCallableStatement) connection
+                .prepareCall("{ call RDC_COLLECTED.RDC_INSERT_INC_PDP_PRC(?,?,?,?) }");
+
+        proc.setString(1, fileName);
+        proc.setString(2, uuid);
+        int bat_index = Demo2.batch_index.getAndIncrement();
+        proc.setInt(3, bat_index);
+
+        //传入参数为istgList
+        ARRAY resultArr = tran2Oracle(connection, incList,
+                bat_index);
+        proc.setARRAY(4, resultArr);
+
+        proc.execute();
     }
 
     private static ARRAY tran2Oracle(Connection con,
