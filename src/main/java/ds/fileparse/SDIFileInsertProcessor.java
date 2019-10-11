@@ -4,6 +4,7 @@ import common.SleepTools;
 import ds.common.*;
 import ds.exception.DBFeedException;
 import ds.exception.FeedException;
+import ds.fileparse.staxparse.StaxTest2Thread;
 import org.apache.hadoop.fs.FileUtil;
 
 import java.io.File;
@@ -48,7 +49,10 @@ public class SDIFileInsertProcessor implements IFeedFileProcessor {
                     insertFileStatus(this.DBConnection, uuid,
                             insertFile.getName(), "StartPDP");
                     this.DBConnection.close();
-                    Thread parseXmlThread = new Thread(new ParseXML(insertFile, uuid));
+//                  Thread parseXmlThread = new Thread(new ParseXML(insertFile, uuid));
+
+                    Thread parseXmlThread = new Thread(new StaxTest2Thread(insertFile, uuid));
+
                     parseXmlThread.setPriority(8);
                     parseXmlThread.start();
                     //start thread deal data in queue
