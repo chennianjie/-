@@ -10,5 +10,34 @@ package arithmetic.stack;
  */
 public class PopOrder {
 
+    public static boolean IsPopOrder(int [] pushA,int [] popA) {
 
+        boolean result = true;
+        int flag = popA[0];
+        Integer index = null;
+        for (int i = 0; i < pushA.length; i++) {
+            if (pushA[i] == flag) {
+                index = i;
+            }
+        }
+        if (index == null) {
+            return false;
+        }
+        int startIndex = pushA.length - index;
+        for (int i = startIndex; i < popA.length; i++) {
+            if (pushA[--index] != popA[i]) {
+                result = false;
+            }
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int[] pushA = new int[]{1, 2, 3, 4, 5};
+        int[] popA = new int[]{4, 5, 3 ,2 ,1};
+
+        boolean b = IsPopOrder(pushA, popA);
+        System.out.println(b);
+
+    }
 }

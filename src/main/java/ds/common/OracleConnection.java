@@ -1,7 +1,7 @@
 package ds.common;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.util.ArrayList;
 
 /**
  * @Description:
@@ -30,7 +30,7 @@ public class OracleConnection {
                 connection = new OracleConnection();
             } catch (Exception e) {
                 e.printStackTrace();
-                return null;
+
             }
         }
         try {
@@ -46,5 +46,9 @@ public class OracleConnection {
     public static void main(String[] args) {
         Connection connection = getConnection();
         System.out.println(connection);
+        ArrayList<Integer> propertyIds = PropertyUtil.getPropertyIds();
+        for (int i : propertyIds) {
+            System.out.println(i);
+        }
     }
 }

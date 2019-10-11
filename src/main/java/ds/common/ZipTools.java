@@ -1,4 +1,4 @@
-package ds;
+package ds.common;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -26,7 +26,6 @@ public class ZipTools {
             GZIPInputStream gzin = new GZIPInputStream(fin);
             //建立解压文件输出流
             ouputfile = sourcedir.substring(0,sourcedir.lastIndexOf('.'));
-            ouputfile = ouputfile.replace(".DAT",".XML");
             FileOutputStream fout = new FileOutputStream(ouputfile);
 
             int num;

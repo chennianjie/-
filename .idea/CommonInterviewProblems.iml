@@ -30,5 +30,18 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://C:/ConcordanceCode/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/ConcordanceCode/lib" />
+        </SOURCES>
+        <jarDirectory url="file://C:/ConcordanceCode/lib" recursive="false" />
+        <jarDirectory url="file://C:/ConcordanceCode/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
