@@ -89,7 +89,7 @@ public class MergeProduceTask implements Runnable {
 //				"RDC_INCR_COL_TYPE", con);
 
 		ARRAY list = new ARRAY(arryDesc, con, structs);
-		System.out.println(" list " + list.length());
+//		System.out.println(" list " + list.length());
 		con.close();
 		return list;
 
@@ -111,8 +111,8 @@ public class MergeProduceTask implements Runnable {
 
 				istgList.add(istg);
 				if (istgList.size() == batchNum) {
-					 System.out.println("while-batchIndexCount-->" +
-					 batchNum);
+//					 System.out.println("while-batchIndexCount-->" +
+//					 batchNum);
 
 					OracleCallableStatement proc = null;
 					try {

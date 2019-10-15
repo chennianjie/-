@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class SDIFileProcessor implements IFeedFileProcessor {
 	public static String UUid = null;
 	public static AtomicInteger batch_index = null;
-	public static List<Integer> propertyIdList = new ArrayList<Integer>();
+	public static List<Long> propertyIdList = new ArrayList<Long>();
 	public static String CurrFileName = null;
 
 	String DIR;

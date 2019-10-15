@@ -2,8 +2,10 @@ package ds.fileparse.staxparse;
 
 
 import ds.common.ProcessBatchQueues;
+import ds.common.PropertyUtil;
 import ds.fileparse.IncrementalStg;
 import ds.fileparse.ParseXML;
+import weblogic.xml.util.Atom;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
@@ -11,8 +13,10 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import java.io.*;
 import java.lang.reflect.Field;
+import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @Description:
@@ -30,6 +34,8 @@ public class StaxTest2Thread implements Runnable{
     private File file;
     private String uuid;
 
+    private List<Long> propertyIds;
+
     public StaxTest2Thread() {
     }
 
@@ -45,6 +51,7 @@ public class StaxTest2Thread implements Runnable{
     //基于事件流的方式来做的，通过使用流的ＡＰＩ，像指针一样的来处理文档，每一个节点都可以返回一个事件。处理完以后由JVM来回收内存。
     @Override
     public void run() {
+        propertyIds = PropertyUtil.getPropertyIds();
         Long time = null;
         XMLInputFactory factory = XMLInputFactory.newInstance();
         Reader fileReader = null;
@@ -54,7 +61,7 @@ public class StaxTest2Thread implements Runnable{
             factory.setProperty(XMLInputFactory.IS_COALESCING, Boolean.TRUE);
             reader = factory.createXMLStreamReader(fileReader);
             int eventReader = reader.getEventType();//获取节点类型,结果是以整形的方式返回的。
-
+            Long propertyId = null;
             while (true) {
                 switch (eventReader) {
                     case XMLStreamConstants.START_DOCUMENT://表示的是文档的开通节点。
@@ -68,51 +75,71 @@ public class StaxTest2Thread implements Runnable{
 
                                 subtype = reader.getAttributeValue(1);
                                 rcssubtype = reader.getAttributeValue(2);
-                                event = reader.getAttributeValue(3);
+//                                event = reader.getAttributeValue(3);
                                 break;
                             case "PI":
                                 pi = reader.getElementText();
                                 break;
                             case "property":
-                                incrementalStg = new IncrementalStg();
-                                incrementalStg.setEntity_type(type);
-                                incrementalStg.setEntity_sub_type(subtype);
-                                incrementalStg.setEntity_rcs_sub_type(rcssubtype);
-                                incrementalStg.setEntity_event(event);
-                                incrementalStg.setNda_pi(Long.valueOf(pi));
-                                incrementalStg.setProperty_id(Long.valueOf(reader.getAttributeValue(0)));
+
+                                propertyId = Long.valueOf(reader.getAttributeValue(0));
+                                if (propertyIds.contains(propertyId)) {
+                                    incrementalStg = new IncrementalStg();
+                                    incrementalStg.setEntity_type(type);
+                                    incrementalStg.setEntity_sub_type(subtype);
+                                    incrementalStg.setEntity_rcs_sub_type(rcssubtype);
+                                    incrementalStg.setEntity_event(event);
+                                    incrementalStg.setNda_pi(Long.valueOf(pi));
+                                    incrementalStg.setReference_flag("Y");
+                                    incrementalStg.setProperty_id(propertyId);
+                                }
                                 break;
                             case "currValue":
-                                incrementalStg.setCurrent_value(reader.getElementText());
+                                if (propertyIds.contains(propertyId)) {
+                                    incrementalStg.setCurrent_value(reader.getElementText());
+                                }
                                 break;
                             case "validFrom":
-                                incrementalStg.setValid_from(reader.getElementText());
+                                if (propertyIds.contains(propertyId)) {
+                                    incrementalStg.setValid_from(reader.getElementText());
+                                }
                                 break;
                             case "validTo":
-                                incrementalStg.setValid_to(reader.getElementText());
+                                if (propertyIds.contains(propertyId)) {
+                                    incrementalStg.setValid_to(reader.getElementText());
+                                }
                                 break;
                             case "validFromWithTime":
-                                incrementalStg.setValid_from_inc_time(reader.getElementText());
+                                if (propertyIds.contains(propertyId)) {
+                                    incrementalStg.setValid_from_inc_time(reader.getElementText());
+                                }
                                 break;
                             case "validToWithTime":
-                                incrementalStg.setValid_to_inc_time(reader.getElementText());
+                                if (propertyIds.contains(propertyId)) {
+                                    incrementalStg.setValid_to_inc_time(reader.getElementText());
+                                }
                                 break;
                             case "language":
-                                incrementalStg.setLanguage(reader.getElementText());
+                                if (propertyIds.contains(propertyId)) {
+                                    incrementalStg.setLanguage(reader.getElementText());
+                                }
                                 break;
                         }
                         break;
                     //文档的结束元素
                     case XMLStreamConstants.END_ELEMENT:
                         if (reader.getLocalName().equals("property")) {
-                            ProcessBatchQueues.IncrementalQueue2.add(incrementalStg);
+                            if (propertyIds.contains(propertyId)) {
+                                ProcessBatchQueues.IncrementalQueue2.add(incrementalStg);
+                                ProcessBatchQueues.parseNum.getAndIncrement();
+                            }
                         }
                         break;
                     //文档的结束。
                     case XMLStreamConstants.END_DOCUMENT:
                         System.out.println("-----------end Document--------");
                         time = System.currentTimeMillis() - time;
-                        System.out.println("耗时: " + time + "毫秒");
+                        System.out.println("解析property数: "+ ProcessBatchQueues.parseNum +"耗时: " + time + "毫秒");
                         break;
                 }
 

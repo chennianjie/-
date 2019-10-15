@@ -48,7 +48,7 @@ public class IncrementalsInsertTask implements Runnable {
 
             while (!done){
                 if (ProcessBatchQueues.IncrementalQueue2.size() == 0) {
-                        SleepTools.ms(10000);
+                        SleepTools.ms(20000);
                 }
                 IncrementalStg stg = ProcessBatchQueues.IncrementalQueue2.take();
                 if (stg == ParseXML.getDUMMY()) {
@@ -67,7 +67,7 @@ public class IncrementalsInsertTask implements Runnable {
             if (!incList.isEmpty()) {
                 callInsertIncProcedure(incList);
                 ProcessBatchQueues.insertNum.addAndGet(incList.size());
-                incList = null;
+                incList.clear();
             }
 
         } catch (SQLException e) {

@@ -18,7 +18,7 @@
 
 <PropConf>
 <name>File_Type</name>
-<value>DAT</value>
+<value>FUL</value>
 <desc></desc>
 </PropConf>
 
@@ -53,13 +53,13 @@
 
     <PropConf>
     <name>PropertyIds</name>
-    <value>697292,720619,720854,738252,1049324,1141745,352955056</value>
+    <value>697292,720619,720854,738252,1049324,1141745,352955056,27207</value>
     <desc></desc>
     </PropConf>
 
     <PropConf>
         <name>InsertThreadNum</name>
-        <value>16</value>
+        <value>8</value>
         <desc></desc>
     </PropConf>
 

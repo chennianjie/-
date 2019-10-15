@@ -46,8 +46,8 @@ public class OracleConnection {
     public static void main(String[] args) {
         Connection connection = getConnection();
         System.out.println(connection);
-        ArrayList<Integer> propertyIds = PropertyUtil.getPropertyIds();
-        for (int i : propertyIds) {
+        ArrayList<Long> propertyIds = PropertyUtil.getPropertyIds();
+        for (Long i : propertyIds) {
             System.out.println(i);
         }
     }

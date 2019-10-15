@@ -5,7 +5,6 @@ import ds.common.*;
 import ds.exception.DBFeedException;
 import ds.exception.FeedException;
 import ds.fileparse.staxparse.StaxTest2Thread;
-import org.apache.hadoop.fs.FileUtil;
 
 import java.io.File;
 import java.sql.CallableStatement;
@@ -29,11 +28,10 @@ public class SDIFileInsertProcessor implements IFeedFileProcessor {
     private FeedInfo feedInfo;
     private Connection DBConnection;
     public static AtomicInteger batch_index = null;
-    public static CountDownLatch endControl = new CountDownLatch(Integer.parseInt(PropertyUtil.getPropValue(PropsStr.InsertThreadNum)));
+    public static CountDownLatch endControl;
 
     @Override
     public void process() throws FeedException {
-        this.init();
         List<File> files = getLocalAbsFiles(PropertyUtil.getPropValue(PropsStr.WorkPath));
         String fileType = PropertyUtil.getPropValue(PropsStr.FileType);
         FileUtils.showFileName(files);
@@ -43,6 +41,7 @@ public class SDIFileInsertProcessor implements IFeedFileProcessor {
             String fileName = insertFile.getName();
             if (fileType != null && fileType.equals(getFileType(fileName))) {
                 try {
+                    this.init();
                     uuid = UUID.randomUUID().toString();
                     System.out.println("当前解析文件{}" + fileName+"    uuid{}" + uuid);
                     this.DBConnection = OracleConnection.getConnection();
@@ -53,10 +52,11 @@ public class SDIFileInsertProcessor implements IFeedFileProcessor {
 
                     Thread parseXmlThread = new Thread(new StaxTest2Thread(insertFile, uuid));
 
-                    parseXmlThread.setPriority(8);
+                    parseXmlThread.setPriority(10);
                     parseXmlThread.start();
                     //start thread deal data in queue
                     insertThreadNum = Integer.parseInt(PropertyUtil.getPropValue(PropsStr.InsertThreadNum));
+                    this.endControl = new CountDownLatch(insertThreadNum);
                     System.out.println("insert DB thread number{}" + insertThreadNum);
                     while (ProcessBatchQueues.IncrementalQueue2.size() == 0) {
                         SleepTools.ms(5000);
@@ -71,7 +71,7 @@ public class SDIFileInsertProcessor implements IFeedFileProcessor {
                     System.out.println("解析的property标签数量：" + ProcessBatchQueues.parseNum);
                     System.out.println("插入数据库的数据条数：" + ProcessBatchQueues.insertNum);
                     if (ProcessBatchQueues.IncrementalQueue2.size() == 1 && ProcessBatchQueues.IncrementalQueue2.take() == ParseXML.getDUMMY()){
-                        System.out.println("===========文件解析插库成功==============");
+                        System.out.println("===========文件解析入库完成==============");
                     }
                     moveFile(insertFile,
                             PropertyUtil
@@ -117,13 +117,6 @@ public class SDIFileInsertProcessor implements IFeedFileProcessor {
         ProcessBatchQueues.parseNum = new AtomicInteger(0);
         batch_index = new AtomicInteger(1);
     }
-
-    private int getInsertThreadNumberB(File file) {
-
-
-        return 0;
-    }
-
     private static boolean moveFile(File srcFile, String destPath, String uuid) {
 
         // Destination directory
@@ -135,7 +128,7 @@ public class SDIFileInsertProcessor implements IFeedFileProcessor {
         // Move file to new directory
         boolean success = srcFile.renameTo(new File(dir, srcFile.getName()
                 + "__" + uuid));
-
+        System.out.println("文件剪切完成: " + srcFile.getName());
         return success;
     }
 

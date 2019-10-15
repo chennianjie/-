@@ -44,20 +44,20 @@ public class PropertyUtil {
 	 * get property_ids
 	 * @return
 	 */
-	public static ArrayList<Integer> getPropertyIds(){
+	public static ArrayList<Long> getPropertyIds(){
 		String propertyIds = getPropValue("PropertyIds");
 		String[] split = propertyIds.split(",");
-		ArrayList<Integer> list = new ArrayList<>();
+		ArrayList<Long> list = new ArrayList<>();
 		for (String s : split) {
-			list.add(Integer.parseInt(s));
+			list.add(Long.parseLong(s));
 
 		}
 		return list;
 	}
 
 	public static void main(String[] args) {
-		List<Integer> propertyIds = getPropertyIds();
-		for (Integer a : propertyIds) {
+		List<Long> propertyIds = getPropertyIds();
+		for (Long a : propertyIds) {
 			System.out.println(a);
 		}
 	}

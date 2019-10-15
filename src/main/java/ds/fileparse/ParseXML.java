@@ -13,7 +13,7 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * @Description:
@@ -94,7 +94,7 @@ public class ParseXML implements Runnable{
  * XML analysis
  */
 class GetStuInfoHandler extends DefaultHandler {
-    public static List<Integer> propertyIds = PropertyUtil.getPropertyIds();
+    public static ArrayList<Long> propertyIds = PropertyUtil.getPropertyIds();
     private String fileName;
     private String uuid;
 
