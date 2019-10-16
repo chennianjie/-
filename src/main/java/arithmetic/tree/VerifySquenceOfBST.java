@@ -9,18 +9,29 @@ package arithmetic.tree;
  */
 public class VerifySquenceOfBST {
 
+    public static void main(String[] args) {
+        VerifySquenceOfBST verifySquenceOfBST = new VerifySquenceOfBST();
+        int[] arr = new int[]{4,8,6,12,16,14,10};
+        boolean b = verifySquenceOfBST.VerifySquenceOfBST(arr);
+        System.out.println(b);
+    }
 
-    public boolean verifySquenceOfBST(int [] sequence) {
+
+    public boolean VerifySquenceOfBST(int [] sequence) {
         if (sequence == null || sequence.length == 0) {
             return false;
         }
-        return verifySquenceOfBST2(sequence,0, sequence.length - 1, sequence.length);
+        return verifySquenceOfBST2(sequence,0, sequence.length - 1);
     }
 
-    public boolean verifySquenceOfBST2(int[] sequence,int start, int end, int length) {
+    public boolean verifySquenceOfBST2(int[] sequence,int start, int end) {
+
+        if (start >= end) {
+            return true;
+        }
 
         //根节点
-        int root = sequence[length - 1];
+        int root = sequence[end];
         //找到大于右子树的开始位置
         int i = start;
         for(; i < end; i++) {
@@ -38,8 +49,6 @@ public class VerifySquenceOfBST {
         }
 
         //判断左右子树是否是搜索二叉树
-        boolean left = true;
-
-        return true;
+        return verifySquenceOfBST2(sequence,start, i - 1 ) && verifySquenceOfBST2(sequence, i, end - 1);
     }
 }
