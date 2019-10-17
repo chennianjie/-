@@ -8,8 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/list/CopyComplexListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/list/RandomListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/tree/FindPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/tree/VerifySquenceOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/tree/VerifySquenceOfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,64 +41,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cfg/PropConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/PreAndInToTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/HasSubTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-446">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/VerifySquenceOfBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="680">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest2Thread.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/FindPathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="133" column="78" selection-start-line="133" selection-start-column="78" selection-end-line="133" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/SDIFileInsertProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+            <state relative-caret-position="443">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,10 +62,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/filesfilter/FileFilterTask.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/CopyComplexListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/RandomListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="106" column="41" lean-forward="true" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/AbstractList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/AbstractCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -115,11 +122,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse2/SDIFileProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="109" column="56" lean-forward="true" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
+            <state relative-caret-position="1666">
+              <caret line="109" column="56" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#583#589#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse2/MergeProduceTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="92" column="4" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+            <state relative-caret-position="1275">
+              <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#735#736#0" expanded="true" />
@@ -201,10 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/stack/MinStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ds/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ds/Demo2.0.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ds/Demo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/xmlparse/Merge.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/ImportTask.java" />
@@ -252,6 +254,10 @@
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest2Thread.java" />
         <option value="$PROJECT_DIR$/cfg/PropConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/VerifySquenceOfBST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/FindPathSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/list/CopyComplexListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/list/RandomListNode.java" />
       </list>
     </option>
   </component>
@@ -274,8 +280,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
+    <option name="x" value="462" />
+    <option name="y" value="-29" />
+    <option name="width" value="979" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -288,8 +295,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,6 +334,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
@@ -429,8 +445,12 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="design_mode.mediator" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\U6079438\IdeaProjects\CommonInterviewProblems\src\main\java\ds\exception" />
+      <recent name="C:\Users\U6079438\IdeaProjects\CommonInterviewProblems\src\main\java\ds\fileparse2" />
+      <recent name="C:\Users\U6079438\IdeaProjects\CommonInterviewProblems" />
+      <recent name="C:\Users\U6079438\IdeaProjects\CommonInterviewProblems\src\main\java\ds\common" />
+      <recent name="C:\Users\U6079438\IdeaProjects\CommonInterviewProblems\src\main\java\ds" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ds.fileparse.staxparse" />
@@ -439,12 +459,9 @@
       <recent name="ds.exception" />
       <recent name="ds.common" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\U6079438\IdeaProjects\CommonInterviewProblems\src\main\java\ds\exception" />
-      <recent name="C:\Users\U6079438\IdeaProjects\CommonInterviewProblems\src\main\java\ds\fileparse2" />
-      <recent name="C:\Users\U6079438\IdeaProjects\CommonInterviewProblems" />
-      <recent name="C:\Users\U6079438\IdeaProjects\CommonInterviewProblems\src\main\java\ds\common" />
-      <recent name="C:\Users\U6079438\IdeaProjects\CommonInterviewProblems\src\main\java\ds" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="arithmetic.list" />
+      <recent name="design_mode.mediator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -459,7 +476,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VerifySquenceOfBST">
+  <component name="RunManager" selected="Application.FindPathSum">
+    <configuration name="FindPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.tree.FindPathSum" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ds.fileparse2.Main" />
       <module name="CommonInterviewProblems" />
@@ -479,19 +509,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ds.fileparse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ds.fileparse.staxparse.StaxTest" />
-      <module name="CommonInterviewProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ds.fileparse.staxparse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -527,11 +544,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindPathSum" />
         <item itemvalue="Application.VerifySquenceOfBST" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.StaxTest2" />
-        <item itemvalue="Application.StaxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -592,14 +609,8 @@
       <workItem from="1570672159035" duration="6781000" />
       <workItem from="1570685407716" duration="5000" />
       <workItem from="1570685456899" duration="30738000" />
-      <workItem from="1571015834214" duration="27355000" />
-    </task>
-    <task id="LOCAL-00010" summary="构造器模式">
-      <created>1564476483418</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1564476483418</updated>
+      <workItem from="1571015834214" duration="28199000" />
+      <workItem from="1571279862477" duration="9662000" />
     </task>
     <task id="LOCAL-00011" summary="备忘录模式（白箱版）">
       <created>1564737797038</created>
@@ -937,7 +948,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571133257056</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="判断次数组是否是某二叉搜索树的后序遍历">
+      <created>1571203691912</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1571203691912</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers>
       <JIRA url="http://jirag.int.thomsonreuters.com">
         <option name="apiType" value="REST_2_0" />
@@ -947,7 +965,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367583000" />
+    <option name="totallyTimeSpent" value="378089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -962,7 +980,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.25033468" />
+      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.2536814" />
       <window_info id="Structure" order="1" sideWeight="0.26069248" side_tool="true" weight="0.22556894" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -971,8 +989,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4953146" visible="true" weight="0.04734577" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49799198" weight="0.8005739" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49464524" visible="true" weight="0.25251076" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49799198" weight="0.30272597" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
@@ -980,7 +998,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" weight="0.06456241" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.7575323" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5046854" side_tool="true" weight="0.39167863" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50535476" side_tool="true" weight="0.28120518" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32998565" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32998565" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.2898135" />
@@ -1078,7 +1096,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="快速排序" />
     <MESSAGE value="多线程测试连接池" />
     <MESSAGE value="集合特性测试" />
     <MESSAGE value="两个线程交替打印奇偶数" />
@@ -1103,7 +1120,8 @@
     <MESSAGE value="PDP流程" />
     <MESSAGE value="PDP流程  fix" />
     <MESSAGE value="xml parse fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml parse fix" />
+    <MESSAGE value="判断次数组是否是某二叉搜索树的后序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="判断次数组是否是某二叉搜索树的后序遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1228,6 +1246,18 @@
           <properties />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/tree/FindPathSum.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/tree/FindPathSum.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>jar://C:/JayChen/developApps/java/jre/lib/rt.jar!/java/awt/EventQueue.class</url>
           <line>63</line>
@@ -1265,59 +1295,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/common/PropConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/xmlparse/Demo2.java" />
-    <entry file="jar://$USER_HOME$/Downloads/ojdbc6.jar/ojdbc6.jar!/oracle/sql/ArrayDescriptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/common/ZipTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
-          <folding>
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/ojdbc6.jar/ojdbc6.jar!/oracle/jdbc/OraclePreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1655,17 +1632,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cfg/PropConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/PreAndInToTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/HasSubTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest2Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="133" column="78" selection-start-line="133" selection-start-column="78" selection-end-line="133" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/SDIFileInsertProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/filesfilter/FileFilterTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse2/SDIFileProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="109" column="56" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse2/MergeProduceTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="92" column="4" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+        <state relative-caret-position="1275">
+          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#735#736#0" expanded="true" />
@@ -1674,66 +1706,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse2/SDIFileProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="109" column="56" lean-forward="true" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest2Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="133" column="78" selection-start-line="133" selection-start-column="78" selection-end-line="133" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/SDIFileInsertProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cfg/PropConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/PreAndInToTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/HasSubTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-446">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/VerifySquenceOfBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="680">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="106" column="41" lean-forward="true" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/FindPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/CopyComplexListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/RandomListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
