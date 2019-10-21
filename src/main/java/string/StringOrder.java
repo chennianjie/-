@@ -26,13 +26,13 @@ public class StringOrder {
             }
         }
         for(int i = pos; i < chars.length; i++){
-            //首部字符和它后面的字符（包括自己）进行交换
+            //第一个位置上的数与其他数进行交换
             char temp = chars[i];
             chars[i] = chars[pos];
             chars[pos] = temp;
-            //递归求后面的字符的排列
+            //第2位置开始的所有排列全部找出
             permutation(chars, pos+1, list);
-            //由于前面交换了一下，所以chs的内容改变了，我们要还原回来
+            //每交换完一次需要复位，然后做另一次交换
             temp = chars[i];
             chars[i] = chars[pos];
             chars[pos] = temp;
