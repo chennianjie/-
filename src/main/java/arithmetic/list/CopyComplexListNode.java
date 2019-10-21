@@ -7,7 +7,7 @@ package arithmetic.list;
  *3、拆分链表，将链表拆分为原链表和复制后的链表
  */
 public class CopyComplexListNode {
-    public RandomListNode Clone(RandomListNode pHead) {
+    public static RandomListNode Clone(RandomListNode pHead) {
         if(pHead == null) {
             return null;
         }
@@ -40,5 +40,21 @@ public class CopyComplexListNode {
         }
 
         return pCloneHead;
+    }
+
+    public static void main(String[] args) {
+        RandomListNode headA = new RandomListNode(1);
+        RandomListNode nodeB = new RandomListNode(2);
+        RandomListNode nodeC = new RandomListNode(3);
+        RandomListNode nodeD = new RandomListNode(4);
+        RandomListNode nodeE = new RandomListNode(5);
+        headA.next = nodeB;
+        nodeB.next = nodeC;
+        nodeC.next = nodeD;
+        nodeD.next = nodeE;
+        headA.random = nodeC;
+        nodeD.random = nodeB;
+        RandomListNode clone = CopyComplexListNode.Clone(headA);
+        System.out.println(clone);
     }
 }

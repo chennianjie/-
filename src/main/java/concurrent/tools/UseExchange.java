@@ -18,7 +18,7 @@ public class UseExchange {
         //第一个线程
         new Thread(()-> {
             {
-                Set<String> setA = new HashSet<String>();//存放数据的容器
+                Set<String> setA = new HashSet<>();//存放数据的容器
                 try {
                     /*添加数据
                      * set.add(.....)
