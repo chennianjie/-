@@ -1,5 +1,8 @@
 package string;
 
+import com.octetstring.vde.Connections;
+
+import java.sql.Connection;
 import java.util.ArrayList;
 
 /**
@@ -19,6 +22,7 @@ public class StringOrder {
     }
 
     private static void permutation(char[] chars, int pos, ArrayList<String> list) {
+        //终止条件，当只剩一个字符的时候，即字串只剩一个字符
         if(pos == chars.length - 1){
             String s = new String(chars);
             if (!list.contains(s)){

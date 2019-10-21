@@ -8,10 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/structure/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/StringOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/array/PrintMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/PrintMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/fbonacci/FibonacciFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/fbonacci/FibonacciFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string/StringOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/StringOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,19 +53,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/Sort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string/StringOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/string/StringOrder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/PrintMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="17">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/fbonacci/FibonacciFind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -82,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Recursion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="157">
+              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,27 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/TrieTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/SDIFileInsertProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -209,11 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ds/xmlparse/ImportTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ds/PropertyUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ds/common/pdp/schedule/IscheduleManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ds/common/FeedInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ds/common/PropConfParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/common/PropsStr.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/exception/DBFeedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/exception/FatalFeedException.java" />
@@ -257,9 +253,14 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/list/OrderTreeToListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/Sort.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/Recursion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/string/StringOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/structure/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/Recursion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/string/StringOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/PrintMatrix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/findOverHalfLengthNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/FindOverHalfLengthNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/fbonacci/FibonacciFind.java" />
       </list>
     </option>
   </component>
@@ -342,7 +343,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
@@ -350,7 +351,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="fbonacci" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -404,13 +406,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Recursion">
-    <configuration name="CopyComplexListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.list.CopyComplexListNode" />
+  <component name="RunManager" selected="Application.FibonacciFind">
+    <configuration name="FibonacciFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.fbonacci.FibonacciFind" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithmetic.list.*" />
+          <option name="PATTERN" value="arithmetic.fbonacci.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -472,11 +474,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciFind" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.StringOrder" />
         <item itemvalue="Application.Sort" />
         <item itemvalue="Application.UseExchange" />
-        <item itemvalue="Application.CopyComplexListNode" />
       </list>
     </recent_temporary>
   </component>
@@ -539,21 +541,7 @@
       <workItem from="1570685456899" duration="30738000" />
       <workItem from="1571015834214" duration="28199000" />
       <workItem from="1571279862477" duration="23780000" />
-      <workItem from="1571619960602" duration="10402000" />
-    </task>
-    <task id="LOCAL-00013" summary="备忘录模式（黑箱版）  fix">
-      <created>1564975449625</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1564975449625</updated>
-    </task>
-    <task id="LOCAL-00014" summary="观察者设计模式">
-      <created>1564988594861</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1564988594861</updated>
+      <workItem from="1571619960602" duration="15995000" />
     </task>
     <task id="LOCAL-00015" summary="剑指Offer面试题11（Java版）：数值的整数次方">
       <created>1564999143103</created>
@@ -884,7 +872,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571622165411</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="递归学习">
+      <created>1571640189736</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1571640189736</updated>
+    </task>
+    <task id="LOCAL-00063" summary="递归学习">
+      <created>1571641342722</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1571641342722</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers>
       <JIRA url="http://jirag.int.thomsonreuters.com">
         <option name="apiType" value="REST_2_0" />
@@ -894,7 +896,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="402609000" />
+    <option name="totallyTimeSpent" value="408202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -919,12 +921,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49464524" visible="true" weight="0.2898135" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" weight="0.5681492" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" weight="0.7675753" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" weight="0.4964132" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" weight="0.45624104" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.7575323" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50401604" side_tool="true" weight="0.2553802" />
@@ -944,6 +946,42 @@
       <window_info anchor="right" id="CDI" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.2570281" />
+      <window_info id="Structure" order="1" sideWeight="0.26069248" side_tool="true" weight="0.22556894" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49464524" weight="0.2898135" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" weight="0.5681492" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" visible="true" weight="0.45624104" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.7575323" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50401604" side_tool="true" weight="0.2553802" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32998565" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32998565" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.2898135" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966533" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966533" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299866" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3299866" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="CDI" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -989,7 +1027,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="两个线程交替打印奇偶数" />
     <MESSAGE value="threadPool测试" />
     <MESSAGE value="forkjoin  数组求和demo" />
     <MESSAGE value="countDownCount和CyclicBarrier测试demo" />
@@ -1014,7 +1051,8 @@
     <MESSAGE value="判断次数组是否是某二叉搜索树的后序遍历" />
     <MESSAGE value="复制复杂节点" />
     <MESSAGE value="26个字母所有子集" />
-    <option name="LAST_COMMIT_MESSAGE" value="26个字母所有子集" />
+    <MESSAGE value="递归学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1177,7 +1215,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/string/StringOrder.java</url>
-          <line>42</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
@@ -1230,33 +1268,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse2/ParserXmlTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse2/DomXmlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse2/FileSplitUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1322">
-          <caret line="129" column="24" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ds/exception/FeedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1578,27 +1589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/OrderTreeToListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/StringOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1647,11 +1641,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="157">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/OrderTreeToListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string/StringOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/PrintMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/fbonacci/FibonacciFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
         </state>
       </provider>
     </entry>
