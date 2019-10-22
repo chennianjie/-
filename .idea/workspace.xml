@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/CountKOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/FindGreatestSumOfSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,104 +37,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/OrderTreeToListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/StringOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/PrintMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/CountKOfArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/FindGreatestSumOfSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/fbonacci/FibonacciFind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/list/Domain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/list/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Recursion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="63">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ds/exception/DBFeedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/exception/FatalFeedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/exception/FeedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/IFeedFileProcessor.java" />
@@ -254,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/fbonacci/FibonacciFind.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/CountKOfArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/FindGreatestSumOfSubArray.java" />
       </list>
     </option>
   </component>
@@ -390,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountKOfArray">
+  <component name="RunManager" selected="Application.FindGreatestSumOfSubArray">
     <configuration name="CountKOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.array.CountKOfArray" />
       <module name="CommonInterviewProblems" />
@@ -417,12 +326,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.Recursion" />
+    <configuration name="FindGreatestSumOfSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.array.FindGreatestSumOfSubArray" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithmetic.*" />
+          <option name="PATTERN" value="arithmetic.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,12 +339,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.string.StringOrder" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.Recursion" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithmetic.string.*" />
+          <option name="PATTERN" value="arithmetic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -458,11 +367,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindGreatestSumOfSubArray" />
         <item itemvalue="Application.CountKOfArray" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.FibonacciFind" />
         <item itemvalue="Application.Recursion" />
-        <item itemvalue="Application.StringOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -525,14 +434,7 @@
       <workItem from="1570685456899" duration="30738000" />
       <workItem from="1571015834214" duration="28199000" />
       <workItem from="1571279862477" duration="23780000" />
-      <workItem from="1571619960602" duration="21179000" />
-    </task>
-    <task id="LOCAL-00017" summary="数组查找奇偶">
-      <created>1565082284439</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1565082284439</updated>
+      <workItem from="1571619960602" duration="25889000" />
     </task>
     <task id="LOCAL-00018" summary="查找结点倒数的数">
       <created>1565082306858</created>
@@ -870,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571709504551</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="找出数组中最小的k个数（堆排）">
+      <created>1571713281019</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1571713281019</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers>
       <JIRA url="http://jirag.int.thomsonreuters.com">
         <option name="apiType" value="REST_2_0" />
@@ -880,7 +789,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="413386000" />
+    <option name="totallyTimeSpent" value="418096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -904,8 +813,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49464524" visible="true" weight="0.28120518" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" weight="0.7675753" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49464524" weight="0.21377331" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" visible="true" weight="0.23242468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
@@ -1011,7 +920,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="countDownCount和CyclicBarrier测试demo" />
     <MESSAGE value="CountDownCount和CyclicBarrier测试demo" />
     <MESSAGE value="forkjoin异步执行文件检索" />
     <MESSAGE value="semaphore使用" />
@@ -1036,7 +944,8 @@
     <MESSAGE value="递归学习" />
     <MESSAGE value="费波纳茨递归优化" />
     <MESSAGE value="找出数组中超过数组一半长度的那个数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="找出数组中超过数组一半长度的那个数字" />
+    <MESSAGE value="找出数组中最小的k个数（堆排）" />
+    <option name="LAST_COMMIT_MESSAGE" value="找出数组中最小的k个数（堆排）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1235,6 +1144,7 @@
         <watch expression="p3" />
         <watch expression="parseNum" />
         <watch expression="IncrementalQueue2" />
+        <watch expression="ints" />
       </configuration>
     </watches-manager>
   </component>
@@ -1252,24 +1162,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/common/PropsStr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/common/PropertyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse2/IFeedFileProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1663,8 +1555,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/CountKOfArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="34">
+          <caret line="20" column="78" lean-forward="true" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/ParseXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1962">
+          <caret line="213" lean-forward="true" selection-start-line="213" selection-end-line="213" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/FindGreatestSumOfSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
