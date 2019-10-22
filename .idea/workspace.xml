@@ -8,9 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/CountKOfArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/StringOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/string/StringOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,11 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="680">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/CountKOfArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -103,19 +111,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="234" column="17" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
-              <folding>
-                <element signature="e#10065#10066#0" expanded="true" />
-                <element signature="e#10148#10149#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -208,7 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ds/common/PropsStr.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/exception/DBFeedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/exception/FatalFeedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/exception/FeedException.java" />
@@ -259,6 +253,7 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/FindOverHalfLengthNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/fbonacci/FibonacciFind.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/CountKOfArray.java" />
       </list>
     </option>
   </component>
@@ -395,7 +390,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.CountKOfArray">
+    <configuration name="CountKOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.array.CountKOfArray" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FibonacciFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.fbonacci.FibonacciFind" />
       <module name="CommonInterviewProblems" />
@@ -411,19 +419,6 @@
     </configuration>
     <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.Recursion" />
-      <module name="CommonInterviewProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arithmetic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Sort" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
@@ -463,11 +458,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountKOfArray" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.FibonacciFind" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.StringOrder" />
-        <item itemvalue="Application.Sort" />
       </list>
     </recent_temporary>
   </component>
@@ -530,14 +525,7 @@
       <workItem from="1570685456899" duration="30738000" />
       <workItem from="1571015834214" duration="28199000" />
       <workItem from="1571279862477" duration="23780000" />
-      <workItem from="1571619960602" duration="18680000" />
-    </task>
-    <task id="LOCAL-00016" summary="fix">
-      <created>1564999217248</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1564999217248</updated>
+      <workItem from="1571619960602" duration="21179000" />
     </task>
     <task id="LOCAL-00017" summary="数组查找奇偶">
       <created>1565082284439</created>
@@ -875,7 +863,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571651736357</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="找出数组中超过数组一半长度的那个数字">
+      <created>1571709504550</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1571709504551</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers>
       <JIRA url="http://jirag.int.thomsonreuters.com">
         <option name="apiType" value="REST_2_0" />
@@ -885,7 +880,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="410887000" />
+    <option name="totallyTimeSpent" value="413386000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -900,7 +895,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.2570281" />
+      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.2570281" />
       <window_info id="Structure" order="1" sideWeight="0.26069248" side_tool="true" weight="0.22556894" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -909,13 +904,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49464524" visible="true" weight="0.21664275" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49464524" visible="true" weight="0.28120518" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" weight="0.7675753" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2125" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" weight="0.45624104" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" weight="0.12912482" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.7575323" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50401604" side_tool="true" weight="0.2553802" />
@@ -1016,7 +1011,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="forkjoin  数组求和demo" />
     <MESSAGE value="countDownCount和CyclicBarrier测试demo" />
     <MESSAGE value="CountDownCount和CyclicBarrier测试demo" />
     <MESSAGE value="forkjoin异步执行文件检索" />
@@ -1041,7 +1035,8 @@
     <MESSAGE value="26个字母所有子集" />
     <MESSAGE value="递归学习" />
     <MESSAGE value="费波纳茨递归优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="费波纳茨递归优化" />
+    <MESSAGE value="找出数组中超过数组一半长度的那个数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="找出数组中超过数组一半长度的那个数字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1257,16 +1252,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="927">
-          <caret line="77" column="62" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ds/common/PropsStr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1671,8 +1656,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/OverHalfLengthNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="680">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/CountKOfArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
