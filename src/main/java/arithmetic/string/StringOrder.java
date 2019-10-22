@@ -1,8 +1,5 @@
-package string;
+package arithmetic.string;
 
-import com.octetstring.vde.Connections;
-
-import java.sql.Connection;
 import java.util.ArrayList;
 
 /**
