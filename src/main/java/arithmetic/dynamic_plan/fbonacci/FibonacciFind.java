@@ -1,4 +1,4 @@
-package arithmetic.fbonacci;
+package arithmetic.dynamic_plan.fbonacci;
 
 /**
  * 1 1 2 3 5 8 13
