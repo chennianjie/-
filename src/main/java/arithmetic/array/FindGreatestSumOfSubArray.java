@@ -56,9 +56,11 @@ public class FindGreatestSumOfSubArray {
 
         for (int i = 0; i < array.length; i++) {
             if (currVal <= 0) {
-                sumMax = array[i];
+                currVal = array[i];
+            }else {
+                currVal += array[i];
+
             }
-            currVal += array[i];
 
 
 
