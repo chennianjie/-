@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c69e6fb6-2768-415f-8f18-054c6b5fe507" name="Default Changelist" comment="1 - n中 1出现的次数">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/MergeLowestNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/search/NumberOf1Between1AndN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/search/NumberOf1Between1AndN.java" afterDir="false" />
     </list>
@@ -46,11 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/search/NumberOf1Between1AndN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="612">
+              <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/MergeLowestNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/IFeedFileProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/xmlparse/Demo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/common/ZipTools.java" />
@@ -205,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/FindLongestSumInTriangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/FindGreatestSumOfSubArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/search/NumberOf1Between1AndN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/MergeLowestNum.java" />
       </list>
     </option>
   </component>
@@ -287,6 +300,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="dynamic_plan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,20 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberOf1Between1AndN">
-    <configuration name="CountKOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.array.CountKOfArray" />
-      <module name="CommonInterviewProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arithmetic.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeLowestNum">
     <configuration name="FibonacciFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.dynamic_plan.fbonacci.FibonacciFind" />
       <module name="CommonInterviewProblems" />
@@ -403,6 +412,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeLowestNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.array.MergeLowestNum" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberOf1Between1AndN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.search.NumberOf1Between1AndN" />
       <module name="CommonInterviewProblems" />
@@ -418,11 +440,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeLowestNum" />
         <item itemvalue="Application.NumberOf1Between1AndN" />
         <item itemvalue="Application.FibonacciFind" />
         <item itemvalue="Application.FindGreatestSumOfSubArray" />
         <item itemvalue="Application.FindLongestSumInTriangle" />
-        <item itemvalue="Application.CountKOfArray" />
       </list>
     </recent_temporary>
   </component>
@@ -487,14 +509,7 @@
       <workItem from="1571279862477" duration="23780000" />
       <workItem from="1571619960602" duration="25889000" />
       <workItem from="1571793794771" duration="23963000" />
-      <workItem from="1572225363974" duration="2354000" />
-    </task>
-    <task id="LOCAL-00023" summary="堆排序">
-      <created>1565162058784</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1565162058784</updated>
+      <workItem from="1572225363974" duration="6938000" />
     </task>
     <task id="LOCAL-00024" summary="桶排序">
       <created>1565227325699</created>
@@ -832,7 +847,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571997289782</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="1 - n中 1出现的次数">
+      <created>1572419671765</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1572419671766</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers>
       <JIRA url="http://jirag.int.thomsonreuters.com">
         <option name="apiType" value="REST_2_0" />
@@ -842,7 +864,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="444413000" />
+    <option name="totallyTimeSpent" value="448997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,13 +888,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49464524" weight="0.24533716" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" visible="true" weight="0.4175036" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49464524" visible="true" weight="0.24533716" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" weight="0.45911047" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2123386" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" weight="0.27403155" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4966533" weight="0.36585367" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.7575323" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50401604" side_tool="true" weight="0.2553802" />
@@ -1178,22 +1200,16 @@
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/search/NumberOf1Between1AndN.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/array/MergeLowestNum.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="116" />
+          <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/search/NumberOf1Between1AndN.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/array/MergeLowestNum.java</url>
           <line>24</line>
           <properties />
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/search/NumberOf1Between1AndN.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="118" />
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>jar://C:/JayChen/developApps/java/jre/lib/rt.jar!/java/awt/EventQueue.class</url>
@@ -1233,13 +1249,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/forkjoin/sumarray/ForkjoinSumArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cfg/PropConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -1637,8 +1646,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/search/NumberOf1Between1AndN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="612">
+          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/MergeLowestNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

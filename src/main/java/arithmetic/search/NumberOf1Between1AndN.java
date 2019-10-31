@@ -18,7 +18,7 @@ package arithmetic.search;
 public class NumberOf1Between1AndN {
         public int NumberOf1Between1AndN_Solution(int n) {
             int count = 0;//1的个数
-            int i = 1;//当前位
+            int i = 1;//当前位（个位/十位/百位）
             int current = 0,after = 0,before = 0;
             while((n/i)!= 0){
                 current = (n/i)%10; //高位数字
@@ -42,8 +42,7 @@ public class NumberOf1Between1AndN {
 
     public static void main(String[] args) {
         NumberOf1Between1AndN numberOf1Between1AndN = new NumberOf1Between1AndN();
-        int i = numberOf1Between1AndN.NumberOf1Between1AndN_Solution(12100);
+        int i = numberOf1Between1AndN.NumberOf1Between1AndN_Solution(12121);
         System.out.println(i);
-
     }
 }
