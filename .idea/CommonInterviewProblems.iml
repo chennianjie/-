@@ -16,20 +16,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.1.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.1.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.1.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.1.5.RELEASE" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/ojdbc6.jar/ojdbc6.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
