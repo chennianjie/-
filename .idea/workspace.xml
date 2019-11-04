@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/tree/IsBalanceTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ds/ImportTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/IsBalanceTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -146,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/Exchange.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/DeepLength.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/IsBalanceTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java" />
       </list>
     </option>
   </component>
@@ -429,7 +430,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572833795951</updated>
-      <workItem from="1572833798621" duration="14629000" />
+      <workItem from="1572833798621" duration="15483000" />
     </task>
     <task id="LOCAL-00002" summary="fix ds">
       <created>1572834583428</created>
@@ -473,11 +474,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572859441011</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="判断平衡二叉树">
+      <created>1572859927427</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572859927427</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22396000" />
+    <option name="totallyTimeSpent" value="23250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -606,7 +614,8 @@
     <MESSAGE value="数组中某数的个数" />
     <MESSAGE value="树的深度、交换" />
     <MESSAGE value="树的深度 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="树的深度 fix" />
+    <MESSAGE value="判断平衡二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="判断平衡二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -878,8 +887,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/IsBalanceTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
