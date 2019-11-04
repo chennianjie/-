@@ -30,14 +30,20 @@ public class DeepLength {
     }
 
 
-
+    /**
+     * 按层遍历  非递归版
+     * @param pRoot
+     * @return
+     */
     public int TreeDepth2(TreeNode pRoot)
     {
         if(pRoot == null){
             return 0;
         }
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        //每次装一层的节点
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(pRoot);
+        //当前节点所在层数   当前一共遍历个数   下一层节点总数
         int depth = 0, count = 0, nextCount = 1;
         while(queue.size()!=0){
             TreeNode top = queue.poll();
@@ -48,6 +54,7 @@ public class DeepLength {
             if(top.right != null){
                 queue.add(top.right);
             }
+            //本层节点全部遍历完毕
             if(count == nextCount){
                 nextCount = queue.size();
                 count = 0;
