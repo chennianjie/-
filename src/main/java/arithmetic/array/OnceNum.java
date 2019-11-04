@@ -7,15 +7,50 @@ package arithmetic.array;
  */
 public class OnceNum {
 
-    public void FindNumsAppearOnce(int [] array,int num1[] , int num2[]) {
-        if (array == null || array.length <= 1) {
-            return;
+        public void FindNumsAppearOnce(int[] array, int[] num1, int[] num2)    {
+            int length = array.length;
+            if(length == 2){
+                num1[0] = array[0];
+                num2[0] = array[1];
+                return;
+            }
+            int bitResult = 0;
+            for(int i = 0; i < length; ++i){
+                bitResult ^= array[i];
+            }
+            //找到第一个1的位置，并按其对数组进行分组
+            int index = findFirst1(bitResult);
+            for(int i = 0; i < length; ++i){
+                if(isBit1(array[i], index)){
+                    num1[0] ^= array[i];
+                }else{
+                    num2[0] ^= array[i];
+                }
+            }
         }
-        int res = array[0];
-        for (int i = 1; i < array.length; i++) {
-            res ^= array[i];
+
+    /**
+     * 第一个1出现的位置
+     * @param bitResult
+     * @return
+     */
+    private int findFirst1(int bitResult){
+            int index = 0;
+            while(((bitResult & 1) == 0) && index < 32){
+                bitResult >>= 1;
+                index++;
+            }
+            return index;
         }
-        num1[0] = res;
-        num2[0] = res;
-    }
+
+    /**
+     * target的二进制表达式中index位置的值是否为1
+     * @param target
+     * @param index
+     * @return
+     */
+    private boolean isBit1(int target, int index){
+            return ((target >> index) & 1) == 1;
+        }
+
 }

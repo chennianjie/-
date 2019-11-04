@@ -48,7 +48,7 @@ public class TestLockSupport {
         SleepTools.ms(1000);
         System.out.println("线程2被阻塞");
         LockSupport.park(thread3);
-        //此时无法释放线程2，线程2将一直处于阻塞状态
+        //此时无法释放线程2，线程2将一直处于阻塞状态，因为此方法只能在线程中被阻塞
         System.out.println("线程2释放");
         LockSupport.unpark(thread3);
 
