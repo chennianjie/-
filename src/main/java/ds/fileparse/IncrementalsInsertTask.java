@@ -14,6 +14,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CountDownLatch;
 
 /**
  * @Description:
@@ -28,10 +29,11 @@ public class IncrementalsInsertTask implements Runnable {
     private Connection connection;
     private Connection arrayConnection;
     private OracleCallableStatement proc;
+    private CountDownLatch endControl;
     public IncrementalsInsertTask() {
     }
 
-    public IncrementalsInsertTask(String fileName, String uuid, Connection connection, Connection arrayConnection) {
+    public IncrementalsInsertTask(String fileName, String uuid, Connection connection, Connection arrayConnection, CountDownLatch endControl) {
         this.fileName = fileName;
         this.uuid = uuid;
         this.connection = connection;
@@ -103,7 +105,7 @@ public class IncrementalsInsertTask implements Runnable {
                 e.printStackTrace();
             }
             //endControl change status
-            SDIFileInsertProcessor.endControl.countDown();
+            endControl.countDown();
         }
 
     }

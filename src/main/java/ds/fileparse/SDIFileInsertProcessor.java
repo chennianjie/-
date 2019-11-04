@@ -28,7 +28,7 @@ public class SDIFileInsertProcessor implements IFeedFileProcessor {
     private FeedInfo feedInfo;
     private Connection DBConnection;
     public static AtomicInteger batch_index = null;
-    public static CountDownLatch endControl;
+    public CountDownLatch endControl;
 
     @Override
     public void process() throws FeedException {
@@ -62,7 +62,7 @@ public class SDIFileInsertProcessor implements IFeedFileProcessor {
                         SleepTools.ms(5000);
                     }
                     for (int i =0; i <insertThreadNum ; i++) {
-                        new Thread(new IncrementalsInsertTask(fileName, uuid, OracleConnection.getConnection(), OracleConnection.getConnection())).start();
+                        new Thread(new IncrementalsInsertTask(fileName, uuid, OracleConnection.getConnection(), OracleConnection.getConnection(), endControl)).start();
                     }
 
                     //wait util this file analysis is complete then change status
