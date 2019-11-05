@@ -18,8 +18,9 @@ public class OnceNum {
             for(int i = 0; i < length; ++i){
                 bitResult ^= array[i];
             }
-            //找到第一个1的位置，并按其对数组进行分组
+            //找到第一个1的位置
             int index = findFirst1(bitResult);
+            //对数组中数的二进制按第一个1所在位置进行分组
             for(int i = 0; i < length; ++i){
                 if(isBit1(array[i], index)){
                     num1[0] ^= array[i];
