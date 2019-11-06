@@ -3,6 +3,7 @@ package arithmetic.list;
 import java.util.LinkedList;
 
 /**
+ * //todo 约瑟夫环的递推公式解法
  * @Description: 约瑟夫环问题
  * @Author: nianjie.chen
  * @Date: 11/6/2019
