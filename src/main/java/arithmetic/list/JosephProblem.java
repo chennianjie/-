@@ -25,7 +25,7 @@ public class JosephProblem {
 
         int bt = 0;
         while (list.size() > 1) {
-            //每次删除的是m-1的人
+            //每次删除的是m-1的人(核心公式)
             bt = (bt + m - 1) % list.size();
             list.remove(bt);
         }
