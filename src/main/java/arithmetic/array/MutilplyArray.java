@@ -16,6 +16,9 @@ package arithmetic.array;
 public class MutilplyArray {
 
     public int[] multiply(int[] A) {
+        if (A.length < 1) {
+            return A;
+        }
         int[] res = new int[A.length];
         res[0] = 1;
         //先计算上三角乘积

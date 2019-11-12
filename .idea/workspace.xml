@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/MutilplyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/string/MatchString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/array/MutilplyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/MutilplyArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,29 +26,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/MutilplyArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+            <state relative-caret-position="123">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/NumString2Int.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/AAddB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/CountKOfArray.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/MatchString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="-119">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -136,12 +137,13 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/LeftRotateString.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/ReverseSentence.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/Iscontinuous.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/AAddB.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/NumString2Int.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/list/JosephProblem.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/DuplicateNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/AAddB.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/MutilplyArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/MatchString.java" />
       </list>
     </option>
   </component>
@@ -210,16 +212,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
@@ -362,7 +355,7 @@
       <workItem from="1572833798621" duration="15483000" />
       <workItem from="1572941129678" duration="14314000" />
       <workItem from="1573181286963" duration="5014000" />
-      <workItem from="1573436505389" duration="6136000" />
+      <workItem from="1573436505389" duration="8262000" />
     </task>
     <task id="LOCAL-00002" summary="fix ds">
       <created>1572834583428</created>
@@ -483,11 +476,25 @@
       <option name="project" value="LOCAL" />
       <updated>1573525794303</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="构建乘积数组">
+      <created>1573544924836</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1573544924836</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix">
+      <created>1573545344357</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1573545344357</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36176000" />
+    <option name="totallyTimeSpent" value="38302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
@@ -611,7 +618,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="整型数组中的逆序对" />
     <MESSAGE value="fix ds" />
-    <MESSAGE value="fix" />
     <MESSAGE value="两链表公共节点" />
     <MESSAGE value="数组中某数的个数" />
     <MESSAGE value="树的深度、交换" />
@@ -625,7 +631,9 @@
     <MESSAGE value="两数相加不用加减乘除" />
     <MESSAGE value="字符串转换成整数" />
     <MESSAGE value="数组中的重复数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组中的重复数字" />
+    <MESSAGE value="构建乘积数组" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/AAddB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/JayChen/developApps/java/src.zip!/java/io/InputStreamReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -890,10 +891,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/AAddB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/MutilplyArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        <state relative-caret-position="123">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/MatchString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
