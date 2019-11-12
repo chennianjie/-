@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="字符串转换成整数">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/list/JosephProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/list/JosephProblem.java" afterDir="false" />
-    </list>
+    <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/DuplicateNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="322">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -344,7 +341,7 @@
       <workItem from="1572833798621" duration="15483000" />
       <workItem from="1572941129678" duration="14314000" />
       <workItem from="1573181286963" duration="5014000" />
-      <workItem from="1573436505389" duration="1392000" />
+      <workItem from="1573436505389" duration="2118000" />
     </task>
     <task id="LOCAL-00002" summary="fix ds">
       <created>1572834583428</created>
@@ -451,17 +448,24 @@
       <option name="project" value="LOCAL" />
       <updated>1573194854404</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="数组中的重复数字">
+      <created>1573463887651</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573463887651</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31432000" />
+    <option name="totallyTimeSpent" value="32158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.21173105" />
+      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" sideWeight="0.26069248" side_tool="true" weight="0.22556894" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,10 +480,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2123386" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49499285" visible="true" weight="0.40381992" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49427754" visible="true" weight="0.28103682" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.15552524" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50500715" side_tool="true" weight="0.3424284" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50572246" side_tool="true" weight="0.40381992" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32998565" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32998565" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.2898135" />
@@ -592,7 +596,8 @@
     <MESSAGE value="约瑟夫环fix" />
     <MESSAGE value="两数相加不用加减乘除" />
     <MESSAGE value="字符串转换成整数" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串转换成整数" />
+    <MESSAGE value="数组中的重复数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组中的重复数字" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -845,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/DuplicateNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="322">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
         </state>
       </provider>
     </entry>
