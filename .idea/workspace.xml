@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="正则匹配">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/IDCardUtil.java" afterDir="false" />
+    <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/string/IsNumberic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,14 +52,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/IDCardUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-773">
-              <caret line="137" column="24" lean-forward="true" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
+            <state relative-caret-position="-68">
+              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
                 <element signature="e#4477#4478#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/IsNumberic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="30" column="83" lean-forward="true" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -92,15 +101,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/DuplicateNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ds/ImportTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -122,9 +122,11 @@
     <findStrings>
       <find>b</find>
       <find>uuid</find>
+      <find>num</find>
     </findStrings>
     <replaceStrings>
       <replace>num1</replace>
+      <replace>str</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -148,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/MatchString.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/IncrementalsInsertTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/IDCardUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/IsNumberic.java" />
       </list>
     </option>
   </component>
@@ -215,6 +218,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileUtils">
+  <component name="RunManager" selected="Application.IsNumberic">
     <configuration name="Exchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.tree.Exchange" />
       <module name="CommonInterviewProblems" />
@@ -281,12 +293,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetNumFromOrderArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.array.GetNumFromOrderArray" />
+    <configuration name="IsNumberic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.string.IsNumberic" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithmetic.array.*" />
+          <option name="PATTERN" value="arithmetic.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsNumberic" />
         <item itemvalue="Application.FileUtils" />
         <item itemvalue="Application.ReverseSentence" />
         <item itemvalue="Application.LeftRotateString" />
         <item itemvalue="Application.Exchange" />
-        <item itemvalue="Application.GetNumFromOrderArray" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +362,7 @@
       <workItem from="1572833798621" duration="15483000" />
       <workItem from="1572941129678" duration="14314000" />
       <workItem from="1573181286963" duration="5014000" />
-      <workItem from="1573436505389" duration="10745000" />
+      <workItem from="1573436505389" duration="14096000" />
     </task>
     <task id="LOCAL-00002" summary="fix ds">
       <created>1572834583428</created>
@@ -492,17 +504,24 @@
       <option name="project" value="LOCAL" />
       <updated>1573550076818</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="身份证号码验证">
+      <created>1573615203557</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1573615203557</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40785000" />
+    <option name="totallyTimeSpent" value="44136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" weight="0.21173105" />
+      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" sideWeight="0.26069248" side_tool="true" weight="0.22556894" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -512,7 +531,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49464524" visible="true" weight="0.2701228" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" weight="0.30832195" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" weight="0.30695772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2123386" />
@@ -636,7 +655,8 @@
     <MESSAGE value="构建乘积数组" />
     <MESSAGE value="fix" />
     <MESSAGE value="正则匹配" />
-    <option name="LAST_COMMIT_MESSAGE" value="正则匹配" />
+    <MESSAGE value="身份证号码验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="身份证号码验证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -682,6 +702,36 @@
           <line>20</line>
           <properties />
           <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/IsNumberic.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/IsNumberic.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/IsNumberic.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/IsNumberic.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/IsNumberic.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -931,11 +981,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/IDCardUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-773">
-          <caret line="137" column="24" lean-forward="true" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
+        <state relative-caret-position="-68">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
             <element signature="e#4477#4478#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/IsNumberic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="30" column="83" lean-forward="true" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
         </state>
       </provider>
     </entry>
