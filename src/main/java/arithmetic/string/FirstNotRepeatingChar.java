@@ -41,7 +41,7 @@ public class FirstNotRepeatingChar {
 
 
     public static void main(String[] args) {
-        int sadws = new FirstNotRepeatingChar().FirstNotRepeatingChar("sadws");
+        int sadws = new FirstNotRepeatingChar().FirstNotRepeatingChar("google");
         System.out.println(sadws);
     }
 }
