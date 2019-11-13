@@ -105,6 +105,6 @@ public class FirstCommonNode {
         listNode4.next = listNode5;
         listNode5.next = listNode3;
         ListNode listNode = new FirstCommonNode().FindFirstCommonNode3(listNode1, listNode4);
-        System.out.println(listNode.v);
+        System.out.println(listNode.val);
     }
 }

@@ -33,7 +33,7 @@ public class Recursion {
         listNode2.next = listNode3;
         ListNode listNode4 = Recursion.reverseNode(listNode);
         while (listNode4 != null) {
-            System.out.println(listNode4.v);
+            System.out.println(listNode4.val);
             listNode4 = listNode4.next;
         }
     }

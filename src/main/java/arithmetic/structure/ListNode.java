@@ -7,18 +7,18 @@ package arithmetic.structure;
  */
 public class ListNode {
 
-    public int v;
+    public int val;
     public ListNode next;
 
     public ListNode() {
     }
 
-    public ListNode(int v, ListNode next) {
-        this.v = v;
+    public ListNode(int val, ListNode next) {
+        this.val = val;
         this.next = next;
     }
 
     public ListNode(int i) {
-        this.v = i;
+        this.val = i;
     }
 }
