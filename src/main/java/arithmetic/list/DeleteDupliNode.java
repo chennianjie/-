@@ -46,6 +46,7 @@ public class DeleteDupliNode {
                     }
                     cur = cur.next;
                     //将temHead.next的指向更新,但保持temHead的值不变
+                    //这里保持temHead的值不变相当于把重复字段删除变成无重复字段的链表来处理，走的是else逻辑
                     temHead.next = cur;
                 }else {
                     //确定是不重复的结点，串在虚拟节点之后
