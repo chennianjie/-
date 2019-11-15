@@ -2,6 +2,8 @@ package arithmetic.tree;
 
 import arithmetic.structure.TreeNode;
 
+import java.util.Stack;
+
 /**
  * @Description: 判断二叉树是否是对称的
  * @Author: nianjie.chen
@@ -9,6 +11,43 @@ import arithmetic.structure.TreeNode;
  */
 public class IsSymmetricalTree {
 
+
+    /**
+     * 使用队列BFS遍历判断基本一致，就注意一下弹出顺序即可
+     * 使用栈实现DFS遍历并判断是否为对称二叉树
+     * 每次成对弹出判断
+     * @param pRoot
+     * @return
+     */
+    boolean isSymmetricalDFS(TreeNode pRoot) {
+        if (pRoot == null) {
+            return true;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.add(pRoot.left);
+        stack.add(pRoot.right);
+        TreeNode left;
+        TreeNode right;
+        while (!stack.isEmpty()) {
+            right = stack.pop();
+            left = stack.pop();
+            if (right == null && left == null) {
+                return true;
+            }
+            if (right == null || left == null) {
+                return false;
+            }
+            if (left.val != right.val) {
+                return false;
+            }
+
+            stack.add(left.left);
+            stack.add(right.right);
+            stack.add(left.right);
+            stack.add(right.left);
+        }
+        return true;
+    }
 
     boolean isSymmetrical(TreeNode pRoot) {
         if (pRoot == null) {
