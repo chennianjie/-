@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
+    <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="按层打印二叉树和之字型打印二叉树">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/tree/SerializeAndReconstructTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/tree/PrintTreeByZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/tree/PrintTreeByZ.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,18 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/NodeOfLoop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/DeleteDupliNode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/PrintTreeByZ.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
@@ -71,6 +59,15 @@
                 <element signature="e#1899#1908#0" expanded="true" />
                 <element signature="e#2506#2515#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/SerializeAndReconstructTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -175,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/list/InOrderGetNextNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/IsSymmetricalTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/PrintTreeByZ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/SerializeAndReconstructTree.java" />
       </list>
     </option>
   </component>
@@ -290,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrintTreeByZ">
+  <component name="RunManager" selected="Application.SerializeAndReconstructTree">
     <configuration name="DeleteDupliNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.list.DeleteDupliNode" />
       <module name="CommonInterviewProblems" />
@@ -306,19 +304,6 @@
     </configuration>
     <configuration name="FirstNotRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.string.FirstNotRepeatingChar" />
-      <module name="CommonInterviewProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arithmetic.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsNumberic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.string.IsNumberic" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
@@ -356,13 +341,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SerializeAndReconstructTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.tree.SerializeAndReconstructTree" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializeAndReconstructTree" />
         <item itemvalue="Application.PrintTreeByZ" />
         <item itemvalue="Application.IsSymmetricalTree" />
         <item itemvalue="Application.DeleteDupliNode" />
         <item itemvalue="Application.FirstNotRepeatingChar" />
-        <item itemvalue="Application.IsNumberic" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +386,7 @@
       <workItem from="1573181286963" duration="5014000" />
       <workItem from="1573436505389" duration="32770000" />
       <workItem from="1574039364652" duration="5697000" />
-      <workItem from="1574046520755" duration="4281000" />
+      <workItem from="1574046520755" duration="5228000" />
     </task>
     <task id="LOCAL-00002" summary="fix ds">
       <created>1572834583428</created>
@@ -586,17 +584,24 @@
       <option name="project" value="LOCAL" />
       <updated>1573809246812</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="按层打印二叉树和之字型打印二叉树">
+      <created>1574059060026</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1574059060026</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72788000" />
+    <option name="totallyTimeSpent" value="73735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.21745351" />
+      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.21745351" />
       <window_info id="Structure" order="1" sideWeight="0.26069248" side_tool="true" weight="0.22556894" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -605,7 +610,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49284694" visible="true" weight="0.24965894" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49284694" visible="true" weight="0.24965894" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49598393" weight="0.28376535" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -712,7 +717,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="整型数组中的逆序对" />
     <MESSAGE value="fix ds" />
     <MESSAGE value="两链表公共节点" />
     <MESSAGE value="数组中某数的个数" />
@@ -737,7 +741,8 @@
     <MESSAGE value="中序遍历获取下一个节点" />
     <MESSAGE value="判断二叉树是否是对称的" />
     <MESSAGE value="判断二叉树是否是对称的fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="判断二叉树是否是对称的fix" />
+    <MESSAGE value="按层打印二叉树和之字型打印二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="按层打印二叉树和之字型打印二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1143,13 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeLinkNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1176,6 +1174,20 @@
             <element signature="e#1899#1908#0" expanded="true" />
             <element signature="e#2506#2515#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/structure/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/SerializeAndReconstructTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
