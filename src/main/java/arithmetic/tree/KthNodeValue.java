@@ -10,6 +10,13 @@ import java.util.Stack;
  * @Date: 11/18/2019
  */
 public class KthNodeValue {
+
+    /**
+     * 非递归版本
+     * @param pRoot
+     * @param k
+     * @return
+     */
     TreeNode KthNode(TreeNode pRoot, int k) {
         if (pRoot != null) {
             Stack<TreeNode> stack = new Stack<>();
