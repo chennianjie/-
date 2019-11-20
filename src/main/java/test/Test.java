@@ -14,7 +14,7 @@ public class Test {
     }
     public static void main(String[] args) {
         int i = Test.tableSizeFor(30);
-
+        System.out.println(i);
         float v = 0.0f / 0.0f;
         //返回一个数的平方根
         Math.sqrt(-1);
@@ -32,7 +32,7 @@ public class Test {
 
 
         //测试switch语句的String方式
-        String param = null;
+        String param = "";
         switch (param){
             case "null":
                 System.out.println("null");
@@ -43,6 +43,9 @@ public class Test {
             default:
                 System.out.println("default");
         }
+
+        //C:\Users\U6079438\IdeaProjects\CommonInterviewProblems
+        System.out.println(System.getProperty("user.dir"));
     }
 
     public static String trim(String value) {

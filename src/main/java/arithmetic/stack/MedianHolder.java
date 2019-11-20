@@ -4,6 +4,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
+ * 小根堆最小的那个数都比大根堆最大的那个数值大
  * @Description:  寻找中位数
  * @Author: nianjie.chen
  * @Date: 11/18/2019
@@ -88,7 +89,4 @@ public class MedianHolder {
         //调整两堆的数量，使其均衡
         adjustHeapSize();
     }
-
-
-
 }

@@ -9,5 +9,4 @@ public interface IFeedFileProcessor {
 	  public void process() throws FeedException;
 	  public void setFeedInfo(FeedInfo feedInfo);
 	  public FeedInfo getFeedInfo();
-	  public int getExecutionOrder();
 }

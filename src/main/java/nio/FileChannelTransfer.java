@@ -1,0 +1,42 @@
+package nio;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileInputStream;
+import java.nio.channels.WritableByteChannel;
+import java.nio.channels.FileChannel;
+/**
+ * 四个文件数据写入一个文件
+ * @Description:  FileChannel transFrom and transTo Demo
+ * @Author: nianjie.chen
+ * @Date: 11/19/2019
+ */
+public class FileChannelTransfer {
+    public static void main(String[] argv) throws Exception {
+        String relativelyPath = System.getProperty("user.dir");
+        // Path of Input files
+        String[] iF = new String[] { relativelyPath + "/input1.txt", relativelyPath + "/input2.txt",
+                relativelyPath + "/input3.txt", relativelyPath + "/input4.txt" };
+        // Path of Output file and contents will be written in this file
+        String oF = relativelyPath + "/combine_output.txt";
+        // Acquired the channel for output file
+        FileOutputStream output = new FileOutputStream(new File(oF));
+        WritableByteChannel targetChannel = output.getChannel();
+        for (int j = 0; j < iF.length; j++) {
+            // Get the channel for input files
+            FileInputStream input = new FileInputStream(iF[j]);
+            FileChannel inputChannel = input.getChannel();
+
+            // The data is tranfer from input channel to output channel
+            inputChannel.transferTo(0, inputChannel.size(), targetChannel);
+
+            // close an input channel
+            inputChannel.close();
+            input.close();
+        }
+        // close the target channel
+        targetChannel.close();
+        output.close();
+        System.out.println("All jobs done...");
+    }
+}

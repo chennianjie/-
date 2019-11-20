@@ -106,11 +106,6 @@ public class SDIFileInsertProcessor implements IFeedFileProcessor {
         return this.feedInfo;
     }
 
-    @Override
-    public int getExecutionOrder() {
-        // TODO Auto-generated method stub
-        return 0;
-    }
 
     private void init() {
         ProcessBatchQueues.insertNum = new AtomicInteger(0);
