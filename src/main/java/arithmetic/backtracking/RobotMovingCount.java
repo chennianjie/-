@@ -65,7 +65,7 @@ public class RobotMovingCount {
 	@param visted		访问标记数组
 	@return				最多可走的方格
 	*/
-    public int movingCountCore(int threshold,int rows,int cols,int row,int col,boolean[] visted){
+   /* public int movingCountCore(int threshold,int rows,int cols,int row,int col,boolean[] visted){
         int count = 0;
         if(check(threshold,rows,cols,row,col,visted)){
             visted[row*cols + col] = true;
@@ -85,7 +85,7 @@ public class RobotMovingCount {
             return true;
         return false;
     }
-
+*/
 
 
 

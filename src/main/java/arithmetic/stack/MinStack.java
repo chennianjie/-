@@ -21,6 +21,8 @@ public class MinStack {
         }
         if (node <= helpStack.peek()){
             helpStack.push(node);
+        }else {
+            helpStack.push(helpStack.peek());
         }
     }
 
@@ -34,6 +36,6 @@ public class MinStack {
     }
 
     public int min() {
-        return helpStack.pop();
+        return helpStack.peek();
     }
 }
