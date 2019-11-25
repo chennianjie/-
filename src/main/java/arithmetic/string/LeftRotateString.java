@@ -8,11 +8,7 @@ package arithmetic.string;
 public class LeftRotateString {
 
     public String LeftRotateString(String str,int n) {
-        if (str == null) {
-            return null;
-        }
-
-        if (str.length() == 1) {
+        if (str == null || str.length() == 1) {
             return str;
         }
 
@@ -24,9 +20,9 @@ public class LeftRotateString {
 
 
     public static void main(String[] args) {
-        String s = "6";
+        String s = ",6";
         LeftRotateString leftRotateString = new LeftRotateString();
-        String s1 = leftRotateString.LeftRotateString(s, 1);
+        String s1 = leftRotateString.LeftRotateString(s, 9);
         String s2 = leftRotateString.LeftRotateString(s, 3);
         System.out.println(s1 + " " + s2);
     }
