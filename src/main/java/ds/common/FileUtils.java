@@ -1,6 +1,9 @@
 package ds.common;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.HashSet;
 import java.util.List;
 
@@ -52,8 +55,59 @@ public class FileUtils {
 
     }
 
+    /**
+     * 删除文件
+     * @param filePath
+     */
+    public void delete(String filePath) {
+        Path path = Paths.get(filePath);
+        try {
+            Files.delete(path);
+            System.out.println("删除成功！");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 复制文件
+     * @param srcPath
+     * @param targetPath
+     */
+    public void copy(String srcPath, String targetPath) {
+        Path path1 = Paths.get(srcPath);
+        Path path2 = Paths.get(targetPath);
+        try {
+            Files.copy(path1, path2);
+            System.out.println(srcPath + "已复制到" + targetPath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 移动文件
+     * @param srcPath
+     * @param targetPath
+     */
+    public void move(String srcPath, String targetPath) {
+        Path path1 = Paths.get(srcPath);
+        Path path2 = Paths.get(targetPath);
+        try {
+            Files.move(path1, path2);
+            System.out.println(srcPath + "已移动到" + targetPath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void main(String[] args) {
         FileUtils fileUtils = new FileUtils();
-        fileUtils.dealPermIds("C:\\Users\\U6079438\\Desktop\\New Text Document.txt", "C:\\Users\\U6079438\\Desktop\\New Text Document1.txt");
+//        fileUtils.dealPermIds("C:\\Users\\U6079438\\Desktop\\New Text Document.txt", "C:\\Users\\U6079438\\Desktop\\New Text Document1.txt");
+       // fileUtils.delete("C:\\\\Users\\\\U6079438\\\\Desktop\\\\New Text Document1.txt");
+
+        //fileUtils.copy("C:\\\\Users\\\\U6079438\\\\Desktop\\\\New Text Document.txt","C:\\\\Users\\\\U6079438\\\\Desktop\\\\New Text Document1.txt");
+
+        fileUtils.move("C:\\\\Users\\\\U6079438\\\\Desktop\\\\New Text Document1.txt", "C:\\\\Users\\\\U6079438");
     }
 }
