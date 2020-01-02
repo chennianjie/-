@@ -71,6 +71,7 @@ public class ParseXML implements Runnable{
             reader.setContentHandler(stuHandler);
             reader.parse(file.getAbsolutePath());
 
+
             System.out.println("文件解析完成{"+file.getName()+"}" + "====== uuid{"+uuid+"}" + "===== 解析的property数量{" + ProcessBatchQueues.parseNum + "}");
             Long end = System.currentTimeMillis();
             System.out.println("文件解析的时间是(ms)："+ (end - start));

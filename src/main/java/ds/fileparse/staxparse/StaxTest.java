@@ -3,8 +3,6 @@ package ds.fileparse.staxparse;
 
 import ds.common.Entity;
 import ds.common.Property;
-import ds.fileparse2.EntityXml;
-
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
