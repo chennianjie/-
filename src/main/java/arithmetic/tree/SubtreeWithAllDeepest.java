@@ -15,6 +15,7 @@ public class SubtreeWithAllDeepest {
     int max_depth;
     public TreeNode subtreeWithAllDeepest(TreeNode root) {
         depth = new HashMap();
+        //目的为了设计头结点的深度为0
         depth.put(null, -1);
         dfs(root, null);
         max_depth = -1;
@@ -24,6 +25,11 @@ public class SubtreeWithAllDeepest {
         return answer(root);
     }
 
+    /**
+     * 查找二叉树中所有结点的深度
+     * @param node
+     * @param parent
+     */
     public void dfs(TreeNode node, TreeNode parent) {
         if (node != null) {
             depth.put(node, depth.get(parent) + 1);
