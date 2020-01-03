@@ -43,11 +43,54 @@ public class LongestValidParentheses {
         return maxlen;
     }
 
+
+    /**
+     * 解法二：使用变量代替栈的方法
+     * 设置一个left和right变量分别记录字符串中“（”和“）”的个数
+     * 规则：从左向右遍历，出现“（”，left++，出现“）”，right++，当left==right更新最大值，right>left时重置left=right=0
+     * 然后按照此方式再从右往左遍历，进而统计出最大值
+     * @param s
+     * @return
+     */
+    public int longestValidParentheses2(String s) {
+        int maxlen = 0;
+        int left = 0,right = 0;
+        for (int i=0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                left++;
+            }else {
+                right++;
+            }
+            if (left == right){
+                maxlen = Math.max(maxlen, right*2);
+            } else if (right > left) {
+                left = right = 0;
+            }
+        }
+        left = right = 0;
+        for (int i=s.length()-1; i >= 0; i--) {
+            if (s.charAt(i) == '(') {
+                left++;
+            }else {
+                right++;
+            }
+            if (left == right) {
+                maxlen = Math.max(maxlen, right*2);
+            }else if (left > right){
+                left = right = 0;
+            }
+        }
+        return maxlen;
+    }
+
+
     public static void main(String[] args) {
         LongestValidParentheses test = new LongestValidParentheses();
         String s1 = "()()))";
         String s2 = "(())()()";
         System.out.println(test.longestValidParentheses(s1));
+        System.out.println(test.longestValidParentheses2(s1));
         System.out.println(test.longestValidParentheses(s2));
+        System.out.println(test.longestValidParentheses2(s2));
     }
 }
