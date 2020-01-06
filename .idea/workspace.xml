@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/FindDisappearedNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/string/GCDOfStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="153">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/GCDOfStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -101,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/IncrementalsInsertTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/IDCardUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/IsNumberic.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/FirstNotRepeatingChar.java" />
@@ -152,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/TwoNumMul.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/FindDisappearedNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/GCDOfStrings.java" />
       </list>
     </option>
   </component>
@@ -223,7 +232,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
@@ -262,9 +271,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.string.LongestValidParentheses" />
+  <component name="RunManager" selected="Application.GCDOfStrings">
+    <configuration name="GCDOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.string.GCDOfStrings" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
@@ -329,19 +338,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LongestValidParentheses" />
       <item itemvalue="Application.TwoNumAdd" />
       <item itemvalue="Application.Recursion" />
       <item itemvalue="Application.TwoNumMul" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.GCDOfStrings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GCDOfStrings" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TwoNumMul" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.TwoNumAdd" />
-        <item itemvalue="Application.LongestValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -375,14 +384,7 @@
       <workItem from="1578019515234" duration="103000" />
       <workItem from="1578019640583" duration="312000" />
       <workItem from="1578019971548" duration="9249000" />
-      <workItem from="1578275711689" duration="15780000" />
-    </task>
-    <task id="LOCAL-00005" summary="数组中某数的个数">
-      <created>1572856751043</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1572856751043</updated>
+      <workItem from="1578275711689" duration="16998000" />
     </task>
     <task id="LOCAL-00006" summary="树的深度、交换">
       <created>1572857893183</created>
@@ -720,17 +722,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578294599581</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="找到所有数组中消失的数">
+      <created>1578300006315</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1578300006315</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179938000" />
+    <option name="totallyTimeSpent" value="181156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.2653791" />
+      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.7393075" visible="true" weight="0.2653791" />
       <window_info id="Structure" order="1" sideWeight="0.26069248" side_tool="true" weight="0.22556894" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -740,7 +749,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.490701" weight="0.20327422" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49213162" visible="true" weight="0.22783083" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49213162" visible="true" weight="0.22783083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.2123386" />
@@ -848,7 +857,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除链表中的重复节点" />
     <MESSAGE value="中序遍历获取下一个节点" />
     <MESSAGE value="判断二叉树是否是对称的" />
     <MESSAGE value="判断二叉树是否是对称的fix" />
@@ -873,7 +881,8 @@
     <MESSAGE value="具有所有最深结点的子结点" />
     <MESSAGE value="两个链表数值相加" />
     <MESSAGE value="两个字符串相乘" />
-    <option name="LAST_COMMIT_MESSAGE" value="两个字符串相乘" />
+    <MESSAGE value="找到所有数组中消失的数" />
+    <option name="LAST_COMMIT_MESSAGE" value="找到所有数组中消失的数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1034,6 +1043,12 @@
           <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/GCDOfStrings.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/fbonacci/FibonacciFind.java</url>
           <line>70</line>
@@ -1069,13 +1084,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/CutRope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/backtracking/RobotMovingCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1439,8 +1447,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/GCDOfStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
