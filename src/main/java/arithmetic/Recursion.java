@@ -1,7 +1,7 @@
 package arithmetic;
 
 import arithmetic.structure.ListNode;
-import arithmetic.structure.Node;
+import arithmetic.structure.ListNode;
 
 /**
  * @Description:递归
@@ -60,6 +60,37 @@ public class Recursion {
         head.next = null;
 
         return newList;
+    }
+
+
+    public static ListNode reverse1(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode helpNode = new ListNode(-1);
+        helpNode.next = head;
+        ListNode pre = head;
+        ListNode cur = pre.next;
+        while (cur != null) {
+            pre.next = cur.next;
+            cur.next = helpNode.next;
+            helpNode.next = cur;
+            cur = pre.next;
+        }
+        return helpNode.next;
+    }
+
+    public static ListNode reverse2(ListNode head) {
+        ListNode pre = null;//指的是每次反转之后开头那个节点
+        ListNode next;//需要反转节点的下一个节点
+        while (head != null) {
+            next = head.next;
+            head.next = pre;
+            pre = head;
+            head = next;
+        }
+        return pre;
     }
 
 }
