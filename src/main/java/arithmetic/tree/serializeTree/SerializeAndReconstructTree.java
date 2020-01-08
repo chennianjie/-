@@ -1,4 +1,4 @@
-package arithmetic.tree;
+package arithmetic.tree.serializeTree;
 
 import arithmetic.structure.TreeNode;
 
