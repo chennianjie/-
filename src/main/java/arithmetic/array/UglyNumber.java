@@ -45,6 +45,9 @@ public class UglyNumber {
      * @return
      */
     public int uglyNumber2(int n){
+        if (n <= 6) {
+            return n;
+        }
         //创建一个数组存储所有丑数，用于计算之后丑数
         int[] uglyArr = new int[n];
         uglyArr[0] = 1;
