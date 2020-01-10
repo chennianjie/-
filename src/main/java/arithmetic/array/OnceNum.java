@@ -2,6 +2,7 @@ package arithmetic.array;
 
 /**
  * @Description: 两个只出现一次的数字，其他数字都出现2次
+ * todo 数组中出现一次的数，其他数出现n次
  * @Author: nianjie.chen
  * @Date: 11/4/2019
  */

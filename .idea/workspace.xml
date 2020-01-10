@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/graph/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/graph/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/graph/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/Solution1129.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/graph/ShortestAlternatingPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,36 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/BFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/MergeTwoOrderList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/MergeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/JosephProblem.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,8 +43,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/graph/ShortestAlternatingPaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Solution1129.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="104" column="29" lean-forward="true" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestValidParentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-527">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -82,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="68">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -137,6 +134,7 @@
       <find>longestValidParentheses2</find>
       <find>反</find>
       <find>Node</find>
+      <find>blue_edges</find>
     </findStrings>
     <replaceStrings>
       <replace>num1</replace>
@@ -146,6 +144,7 @@
       <replace>target</replace>
       <replace>FileUtils</replace>
       <replace>ListNode</replace>
+      <replace>blueEdges</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\U6079438\IdeaProjects\CommonInterviewProblems\src\main\java\arithmetic\search</dir>
@@ -157,9 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/PrintTreeByZ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/LevelIterator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/KthNodeValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/stack/MedianHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/noiCopy" />
@@ -208,6 +204,9 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/graph/BFS.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/graph/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/graph/ShortestAlternatingPaths.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/Solution1129.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java" />
       </list>
     </option>
   </component>
@@ -266,8 +265,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -424,7 +423,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindMaxConsecutiveOnes">
+  <component name="RunManager" selected="Application.LongestPalindrome">
     <configuration name="FindMaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.array.FindMaxConsecutiveOnes" />
       <module name="CommonInterviewProblems" />
@@ -438,12 +437,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsComplementTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.tree.IsComplementTree" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.string.LongestPalindrome" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithmetic.tree.serializeTree.*" />
+          <option name="PATTERN" value="arithmetic.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -464,19 +463,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeAndReconstructTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.tree.serializeTree.SerializeAndReconstructTree" />
-      <module name="CommonInterviewProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arithmetic.tree.serializeTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SerializeTree297" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.tree.serializeTree.SerializeTree297" />
       <module name="CommonInterviewProblems" />
@@ -490,20 +476,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution1129" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.Solution1129" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.IsComplementTree" />
-      <item itemvalue="Application.SerializeAndReconstructTree" />
       <item itemvalue="Application.SerializeTree297" />
       <item itemvalue="Application.NthSuperUglyNumber" />
       <item itemvalue="Application.FindMaxConsecutiveOnes" />
+      <item itemvalue="Application.Solution1129" />
+      <item itemvalue="Application.LongestPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindrome" />
+        <item itemvalue="Application.Solution1129" />
         <item itemvalue="Application.FindMaxConsecutiveOnes" />
         <item itemvalue="Application.NthSuperUglyNumber" />
         <item itemvalue="Application.SerializeTree297" />
-        <item itemvalue="Application.SerializeAndReconstructTree" />
-        <item itemvalue="Application.IsComplementTree" />
       </list>
     </recent_temporary>
   </component>
@@ -538,14 +537,8 @@
       <workItem from="1578019640583" duration="312000" />
       <workItem from="1578019971548" duration="9249000" />
       <workItem from="1578275711689" duration="18405000" />
-      <workItem from="1578550587835" duration="7495000" />
-    </task>
-    <task id="LOCAL-00012" summary="约瑟夫环">
-      <created>1573032436019</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1573032436019</updated>
+      <workItem from="1578550587835" duration="7538000" />
+      <workItem from="1578619397861" duration="9801000" />
     </task>
     <task id="LOCAL-00013" summary="约瑟夫环fix">
       <created>1573032656763</created>
@@ -883,11 +876,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578534497531</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="图">
+      <created>1578564062040</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1578564062041</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213557000" />
+    <option name="totallyTimeSpent" value="223401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -902,7 +902,7 @@
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.2725322" />
+      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.27539343" />
       <window_info id="Structure" order="1" sideWeight="0.26462397" side_tool="true" weight="0.2067239" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -911,8 +911,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.490701" weight="0.20327422" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49213162" weight="0.22373806" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.490701" visible="true" weight="0.20327422" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49213162" weight="0.28376535" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.33969986" />
@@ -920,7 +920,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49213162" weight="0.24965894" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.24965894" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5078684" side_tool="true" visible="true" weight="0.040927693" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5078684" side_tool="true" weight="0.040927693" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32998565" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32998565" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.28785813" />
@@ -939,7 +939,7 @@
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297568" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.26895565" />
+      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" weight="0.2761087" />
       <window_info id="Structure" order="1" sideWeight="0.26462397" side_tool="true" weight="0.2067239" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -948,16 +948,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.490701" visible="true" weight="0.25648022" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49213162" weight="0.22373806" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.490701" weight="0.20327422" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49213162" visible="true" weight="0.28376535" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.33969986" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49213162" weight="0.5511596" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49213162" weight="0.24965894" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.24965894" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5078684" side_tool="true" weight="0.28240108" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5078684" side_tool="true" weight="0.040927693" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32998565" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32998565" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.28785813" />
@@ -1020,7 +1020,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="序列化和反序列化二叉树(先序和层级遍历)" />
     <MESSAGE value="二叉树层级遍历" />
     <MESSAGE value="搜索二叉树中第k小的值" />
     <MESSAGE value="找中位数" />
@@ -1045,7 +1044,8 @@
     <MESSAGE value="是否是完全二叉树" />
     <MESSAGE value="超级丑数" />
     <MESSAGE value="最大连续个数1" />
-    <option name="LAST_COMMIT_MESSAGE" value="最大连续个数1" />
+    <MESSAGE value="图" />
+    <option name="LAST_COMMIT_MESSAGE" value="图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1206,6 +1206,36 @@
           <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/Solution1129.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/Solution1129.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/Solution1129.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/Solution1129.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/Solution1129.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/fbonacci/FibonacciFind.java</url>
           <line>70</line>
@@ -1242,26 +1272,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest2Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/IncrementalsInsertTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ds/fileparse/IncrementalStg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1436,13 +1446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/GCDOfStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1456,13 +1459,6 @@
           <folding>
             <element signature="e#0#2428#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1551,7 +1547,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/BFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="340">
           <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1561,7 +1557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/MergeTwoOrderList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
@@ -1604,17 +1600,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/graph/ShortestAlternatingPaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Solution1129.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="104" column="29" lean-forward="true" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
