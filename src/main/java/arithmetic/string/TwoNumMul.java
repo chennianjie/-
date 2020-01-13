@@ -69,6 +69,54 @@ public class TwoNumMul {
         return res;
     }
 
+
+    /**
+     *
+     * 竖式相乘改进版
+     * num1位数N   num2位数M  num1*num2位数=M+N
+     * 使用一个数组存储res[M+N]
+     * num1 index-->i
+     * num2 index-->j
+     * num1[i]*num2[j]=(0x,xy两种情况)  y第二位为res[i+j+1]的值，x第一位为res[i+j]的值
+     * @param num1
+     * @param num2
+     * @return
+     */
+    public String multiplyPro(String num1, String num2) {
+        //输入检验
+        if (num1 == null || num2 == null){
+            return null;
+        }
+        if ("0".equals(num1) || "0".equals(num2)) {
+            return "0";
+        }
+        //构建res数组
+        int[] res = new int[num1.length() + num2.length()];
+        for (int i = num1.length() - 1; i >=0; i--){
+            int n1 = num1.charAt(i) - '0';
+            for (int j = num2.length() - 1; j >= 0; j--) {
+                int n2 = num2.charAt(j) - '0';
+                int sum = (res[i + j + 1] + n1 * n2);
+                res[i + j + 1] = sum % 10;
+                res[i + j] += sum / 10;
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        boolean flag = false;
+        for (int i = 01; i < res.length; i++) {
+            if (res[i] != 0) {
+                flag = true;
+            }
+            if (flag) {
+                sb.append(res[i]);
+            }
+        }
+
+        //转换格式返回
+        return sb.toString();
+
+    }
+
     private String addStrings (String num1, String num2) {
         StringBuilder sb = new StringBuilder();
         int carry = 0;
@@ -84,7 +132,9 @@ public class TwoNumMul {
 
     public static void main(String[] args) {
         String s = new TwoNumMul().multiply("123", "231");
+        String s1 = new TwoNumMul().multiplyPro("123", "231");
         System.out.println(s);
+        System.out.println(s1);
         System.out.println(123*231);
     }
 
