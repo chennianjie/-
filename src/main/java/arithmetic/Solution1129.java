@@ -2,6 +2,9 @@ package arithmetic;
 
 import java.util.*;
 
+/**
+ * 最长颜色交替出现的边的长度
+ */
 public class Solution1129 {
 
     private int[] ans;
