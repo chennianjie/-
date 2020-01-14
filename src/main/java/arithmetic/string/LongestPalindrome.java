@@ -2,6 +2,7 @@ package arithmetic.string;
 
 /**
  * @Description: 最长回文字符串
+ * todo 优化解法
  * @Author: nianjie.chen
  * @Date: 1/10/2020
  */
