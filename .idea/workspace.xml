@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/ContainsNearbyAlmostDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/FindLeastCoins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/search/MinNumberInRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/search/MinNumberInRotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +43,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/FindLeastCoins.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
               <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="68" column="60" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/nio/CopyFileByNIO.java" />
         <option value="$PROJECT_DIR$/src/main/java/nio/ScatterGatherIO.java" />
         <option value="$PROJECT_DIR$/src/main/java/nio/FileChannelTransfer.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/fbonacci/FibonacciFind.java" />
@@ -170,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest.java" />
         <option value="$PROJECT_DIR$/cfg/PropConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest2Thread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/ParseXML.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/sort/MergeSort.java" />
@@ -201,6 +218,8 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/ContainsNearbyAlmostDuplicate.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/FindLeastCoins.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java" />
       </list>
     </option>
   </component>
@@ -244,10 +263,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="x" value="470" />
+    <option name="y" value="39" />
+    <option name="width" value="1091" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -340,6 +359,31 @@
               <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -388,13 +432,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindLeastCoins">
+  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
     <configuration name="ContainsNearbyAlmostDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.array.ContainsNearbyAlmostDuplicate" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arithmetic.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ds.common.FileUtils" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ds.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,25 +472,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.string.LongestPalindrome" />
+    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.dynamic_plan.LongestIncreasingSubsequence" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arithmetic.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OnceNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.array.OnceNum" />
-      <module name="CommonInterviewProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arithmetic.array.*" />
+          <option name="PATTERN" value="arithmetic.dynamic_plan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,19 +499,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LongestPalindrome" />
-      <item itemvalue="Application.OnceNum" />
       <item itemvalue="Application.TwoNumMul" />
       <item itemvalue="Application.ContainsNearbyAlmostDuplicate" />
       <item itemvalue="Application.FindLeastCoins" />
+      <item itemvalue="Application.LongestIncreasingSubsequence" />
+      <item itemvalue="Application.FileUtils" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestIncreasingSubsequence" />
+        <item itemvalue="Application.FileUtils" />
         <item itemvalue="Application.FindLeastCoins" />
         <item itemvalue="Application.ContainsNearbyAlmostDuplicate" />
         <item itemvalue="Application.TwoNumMul" />
-        <item itemvalue="Application.OnceNum" />
-        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -504,21 +548,7 @@
       <workItem from="1578275711689" duration="18405000" />
       <workItem from="1578550587835" duration="7538000" />
       <workItem from="1578619397861" duration="13651000" />
-      <workItem from="1578880231211" duration="24732000" />
-    </task>
-    <task id="LOCAL-00017" summary="数组中的重复数字">
-      <created>1573463887651</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1573463887651</updated>
-    </task>
-    <task id="LOCAL-00018" summary="数组中的重复数字">
-      <created>1573525794303</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1573525794303</updated>
+      <workItem from="1578880231211" duration="31642000" />
     </task>
     <task id="LOCAL-00019" summary="构建乘积数组">
       <created>1573544924836</created>
@@ -849,11 +879,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578904333063</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="最少数量的硬币">
+      <created>1578992094246</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1578992094246</updated>
+    </task>
+    <task id="LOCAL-00067" summary="fix">
+      <created>1578995413095</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1578995413095</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251983000" />
+    <option name="totallyTimeSpent" value="258893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -865,7 +909,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="20" width="1456" height="858" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.26108727" />
@@ -877,8 +921,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" show_stripe_button="false" weight="0.3287858" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4899857" weight="0.23829788" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4914163" weight="0.9574468" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4899857" weight="0.28785813" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4914163" visible="true" weight="0.23601638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.33969986" />
@@ -986,7 +1030,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nio相关" />
     <MESSAGE value="最大窗口   增加注释" />
     <MESSAGE value="矩阵中的路径--回溯法" />
     <MESSAGE value="矩阵中的路径--回溯法 fix" />
@@ -994,7 +1037,6 @@
     <MESSAGE value="矩阵中的路径fix" />
     <MESSAGE value="机器人的运动轨迹" />
     <MESSAGE value="nio方式移动文件" />
-    <MESSAGE value="fix" />
     <MESSAGE value="最长有效括弧" />
     <MESSAGE value="最长有效括弧--解法二" />
     <MESSAGE value="具有所有最深结点的子结点" />
@@ -1011,7 +1053,9 @@
     <MESSAGE value="数组中出现一次的数，其他数出现3次" />
     <MESSAGE value="竖式相乘改进版" />
     <MESSAGE value="树的直径" />
-    <option name="LAST_COMMIT_MESSAGE" value="树的直径" />
+    <MESSAGE value="最少数量的硬币" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1238,6 +1282,12 @@
           <properties />
           <option name="timeStamp" value="209" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/fbonacci/FibonacciFind.java</url>
           <line>70</line>
@@ -1263,20 +1313,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1624,6 +1660,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="68" column="60" selection-start-line="68" selection-start-column="60" selection-end-line="68" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>

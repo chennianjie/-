@@ -1,8 +1,11 @@
 package arithmetic.dynamic_plan;
 
+import java.util.Arrays;
+
 /**
  * @Description:
  * 最长非减子序列的长度
+ * eg:{1,3,6,7,9,4,10,5,6}   -->   {1,3,6,7,9,10}可以不是连续的
  * @Author: nianjie.chen
  * @Date: 1/14/2020
  */
@@ -22,10 +25,13 @@ public class LongestIncreasingSubsequence {
      * @return
      */
     public int longestIncreasingSubsequence(int[] array){
-
+        if (array.length == 0){
+            return 0;
+        }
         //创建dp数组
         int[] dp = new int[array.length];
         dp[0] = 1;
+        int res = 1;
         int preI = 0;
         for (int i = 1; i < array.length; i++) {
             for (int j = 0; j < i; j++) {
@@ -34,14 +40,38 @@ public class LongestIncreasingSubsequence {
                 }
             }
             dp[i] = preI + 1;
+            res = Math.max(res, dp[i]);
             preI = 0;
         }
-        return dp[array.length - 1];
+        return res;
+    }
+
+
+
+    /**
+     * 动态规划和二分搜索
+     * @param nums
+     * @return
+     */
+    public int lengthOfLIS2(int[] nums) {
+        int[] dp = new int[nums.length];
+        int len = 0;
+        for (int num : nums) {
+            int i = Arrays.binarySearch(dp, 0, len, num);
+            if (i < 0) {
+                i = -(i + 1);
+            }
+            dp[i] = num;
+            if (i == len) {
+                len++;
+            }
+        }
+        return len;
     }
 
 
     public static void main(String[] args) {
-        int i = new LongestIncreasingSubsequence().longestIncreasingSubsequence(new int[]{5, 3, 4, 8, 6, 7});
+        int i = new LongestIncreasingSubsequence().longestIncreasingSubsequence(new int[]{1,3,6,7,9,4,10,5,6});
         System.out.println(i);
     }
 }

@@ -143,8 +143,8 @@ public class FileUtils {
 
     public static void main(String[] args) {
         FileUtils fileUtils = new FileUtils();
-        fileUtils.dealPermIds("C:\\Users\\U6079438\\Desktop\\New Text Document.txt", "C:\\Users\\U6079438\\Desktop\\New Text Document1.txt");
-//        fileUtils.findNotExsistNums("C:\\Users\\U6079438\\Desktop\\New Text Document.txt", "C:\\Users\\U6079438\\Desktop\\New Text Document1.txt", "\"C:\\Users\\U6079438\\Desktop\\New Text Document2.txt");
+//        fileUtils.dealPermIds("C:\\Users\\U6079438\\Desktop\\New Text Document.txt", "C:\\Users\\U6079438\\Desktop\\New Text Document1.txt");
+        fileUtils.findNotExsistNums("C:\\Users\\U6079438\\Desktop\\New Text Document.txt", "C:\\Users\\U6079438\\Desktop\\New Text Document1.txt", "\"C:\\Users\\U6079438\\Desktop\\New Text Document2.txt");
        // fileUtils.delete("C:\\\\Users\\\\U6079438\\\\Desktop\\\\New Text Document1.txt");
 
         //fileUtils.copy("C:\\\\Users\\\\U6079438\\\\Desktop\\\\New Text Document.txt","C:\\\\Users\\\\U6079438\\\\Desktop\\\\New Text Document1.txt");
