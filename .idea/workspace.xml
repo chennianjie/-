@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="331">
+              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -112,8 +112,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="39">
+              <caret line="137" column="12" selection-start-line="137" selection-start-column="12" selection-end-line="137" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-206">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="e#1015#1016#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/Recursion.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/list/TwoNumAdd.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/FindDisappearedNumbers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/GCDOfStrings.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/LongestWPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/IsComplementTree.java" />
@@ -215,11 +227,12 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/TwoNumMul.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/DiameterOfBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/ContainsNearbyAlmostDuplicate.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/FindLeastCoins.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/common/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/Solution.java" />
       </list>
     </option>
   </component>
@@ -432,20 +445,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
-    <configuration name="ContainsNearbyAlmostDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.array.ContainsNearbyAlmostDuplicate" />
-      <module name="CommonInterviewProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arithmetic.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ds.common.FileUtils" />
       <module name="CommonInterviewProblems" />
@@ -485,8 +485,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoNumMul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.string.TwoNumMul" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.string.LongestPalindrome" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
@@ -498,20 +498,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.Solution" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.TwoNumMul" />
-      <item itemvalue="Application.ContainsNearbyAlmostDuplicate" />
       <item itemvalue="Application.FindLeastCoins" />
       <item itemvalue="Application.LongestIncreasingSubsequence" />
       <item itemvalue="Application.FileUtils" />
+      <item itemvalue="Application.LongestPalindrome" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.FileUtils" />
         <item itemvalue="Application.FindLeastCoins" />
-        <item itemvalue="Application.ContainsNearbyAlmostDuplicate" />
-        <item itemvalue="Application.TwoNumMul" />
       </list>
     </recent_temporary>
   </component>
@@ -548,14 +561,7 @@
       <workItem from="1578275711689" duration="18405000" />
       <workItem from="1578550587835" duration="7538000" />
       <workItem from="1578619397861" duration="13651000" />
-      <workItem from="1578880231211" duration="31642000" />
-    </task>
-    <task id="LOCAL-00019" summary="构建乘积数组">
-      <created>1573544924836</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1573544924836</updated>
+      <workItem from="1578880231211" duration="42308000" />
     </task>
     <task id="LOCAL-00020" summary="fix">
       <created>1573545344357</created>
@@ -893,11 +899,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578995413095</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="fix">
+      <created>1579055547062</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1579055547062</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258893000" />
+    <option name="totallyTimeSpent" value="269559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -921,13 +934,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" show_stripe_button="false" weight="0.3287858" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4899857" weight="0.28785813" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4914163" visible="true" weight="0.23601638" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4899857" weight="0.2796726" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4914163" visible="true" weight="0.42837653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.33969986" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.490701" weight="0.5293315" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.490701" weight="0.040927693" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.24965894" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.509299" side_tool="true" weight="0.59481585" />
@@ -1248,27 +1261,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java</url>
-          <line>48</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="187" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="188" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="194" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java</url>
@@ -1287,6 +1282,12 @@
           <line>45</line>
           <properties />
           <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="219" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/fbonacci/FibonacciFind.java</url>
@@ -1518,7 +1519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/graph/ShortestAlternatingPaths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1621,20 +1621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/search/MinNumberInRotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1673,10 +1659,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state relative-caret-position="331">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/string/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="137" column="12" selection-start-line="137" selection-start-column="12" selection-end-line="137" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
