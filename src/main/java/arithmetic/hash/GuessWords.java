@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * @Description:
- *
+ * todo 位运算优化版本
  * 猜字谜
  * 输入：
  * words = ["aaaa","asas","able","ability","actt","actor","access"],
