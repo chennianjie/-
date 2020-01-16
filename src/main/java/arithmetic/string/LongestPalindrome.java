@@ -3,7 +3,6 @@ package arithmetic.string;
 
 /**
  * @Description: 最长回文字符串
- * todo
  * @Author: nianjie.chen
  * @Date: 1/10/2020
  */
@@ -114,7 +113,6 @@ public class LongestPalindrome {
 
 
     /**
-     *
      * 最牛逼解法
      * @param s
      * @return
@@ -198,7 +196,7 @@ public class LongestPalindrome {
 
     public static void main(String[] args) {
         LongestPalindrome longestPalindrome = new LongestPalindrome();
-        System.out.println(longestPalindrome.longestPalindrome4("addadddd"));
+        System.out.println(longestPalindrome.longestPalindrome3("addadddd"));
         System.out.println(longestPalindrome.longestPalindrome4("adda"));
         System.out.println(longestPalindrome.longestPalindrome4(""));
         System.out.println(longestPalindrome.longestPalindrome4("aaad"));
