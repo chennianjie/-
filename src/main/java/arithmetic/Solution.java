@@ -1,5 +1,9 @@
 package arithmetic;
 
+/**
+ * 最长回文子串
+ * 首先初始化一字母和二字母的回文，然后找到所有三字母回文，并依此类推…
+ */
 class Solution {
     public String longestPalindrome(String s) {
         int len = s.length();
@@ -19,7 +23,7 @@ class Solution {
 
         for(int l = 3; l <= len; l++){  //l表示检索的子串长度，等于3表示先检索长度为3的子串
             for (int i = 0; i+l-1 < len; i++){
-                int j = l+i-1;  //终止字符位置
+                int j = l+i-1;  //终止字符位置，三字母回文的终点
                 if(s.charAt(i) == s.charAt(j) && dp[i+1][j-1] == 1){  //状态转移
                     dp[i][j] = 1;  //是一，不是字母l
                     start = i;

@@ -155,14 +155,54 @@ public class LongestPalindrome {
             return ans;
     }
 
+    /**
+     * 动态规划解法：
+     * 大问题-->小问题
+     * 规定：1.1表示是回文  2.dp[i][j]==1表示 i<-->j 范围内是回文
+     * 状态方程为： d（i,j）==1  charAt(i)==chatAt(j) && d(i+1,j-1)==1 存在0=<i,j<s.length;i<=j
+     * @param s
+     * @return
+     */
+    public String longestPalindrome4(String s) {
+        if (s == null || s.length() == 1 || "".equals(s)) {
+            return s;
+        }
+        int[][] dp = new int[s.length()][s.length()];
+        //使用两个变量存储最长回文串的开始和结束索引
+        int start = 0;
+        int end = 0;
+        //在dp数组中初始化1个字母和2个字母回文
+        for (int i = 0; i < s.length(); i++){
+            dp[i][i] = 1;
+            if (i+1 < s.length() && s.charAt(i) == s.charAt(i+1)){
+                dp[i][i+1] = 1;
+                start = i;
+                end = i+1;
+            }
+        }
+        //在dp数组中初始化字母长度为3及以上的回文
+        int lastIndex;
+        for (int l = 3; l <= s.length(); l++){
+            for (int i = 0; l+i-1 < s.length(); i++) {
+                lastIndex = l+i-1;
+                if (s.charAt(i) == s.charAt(lastIndex) && dp[i+1][lastIndex-1] == 1) {
+                    dp[i][lastIndex] = 1;
+                    start = i;
+                    end = lastIndex;
+                }
+            }
+        }
+        return s.substring(start, end + 1);
+    }
+
 
     public static void main(String[] args) {
         LongestPalindrome longestPalindrome = new LongestPalindrome();
-        System.out.println(longestPalindrome.longestPalindrome2("addadddd"));
-        System.out.println(longestPalindrome.longestPalindrome2("adda"));
-        System.out.println(longestPalindrome.longestPalindrome2(""));
-        System.out.println(longestPalindrome.longestPalindrome2("aaad"));
-        System.out.println(longestPalindrome.longestPalindrome2("caad"));
+        System.out.println(longestPalindrome.longestPalindrome4("addadddd"));
+        System.out.println(longestPalindrome.longestPalindrome4("adda"));
+        System.out.println(longestPalindrome.longestPalindrome4(""));
+        System.out.println(longestPalindrome.longestPalindrome4("aaad"));
+        System.out.println(longestPalindrome.longestPalindrome4("caad"));
 //        longestPalindrome.isPalindrome("ddadddd", 0, 7);
     }
 }
