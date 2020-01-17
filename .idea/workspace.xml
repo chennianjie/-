@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/math/DiscoverGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/array/FindMaxLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/FindMaxLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,11 +90,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/FindMaxLength.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            <state relative-caret-position="798">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/math/DiscoverGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/fbonacci/FibonacciFind.java" />
         <option value="$PROJECT_DIR$/src/main/java/nio/SelectorExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/IFeedFileProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/SDIFileInsertProcessor.java" />
@@ -212,6 +223,7 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/hash/GuessWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/OnceNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/FindMaxLength.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/math/DiscoverGame.java" />
       </list>
     </option>
   </component>
@@ -255,10 +267,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="276" />
-    <option name="y" value="-24" />
+    <option name="x" value="356" />
+    <option name="y" value="39" />
     <option name="width" value="1091" />
-    <option name="height" value="732" />
+    <option name="height" value="611" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -316,16 +328,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="hash" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
@@ -406,7 +409,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindMaxLength">
+  <component name="RunManager" selected="Application.DiscoverGame">
+    <configuration name="DiscoverGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.math.DiscoverGame" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindMaxLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.array.FindMaxLength" />
       <module name="CommonInterviewProblems" />
@@ -459,33 +475,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.Solution" />
-      <module name="CommonInterviewProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arithmetic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.LongestPalindrome" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.GuessWords" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.FindMaxLength" />
+      <item itemvalue="Application.DiscoverGame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiscoverGame" />
         <item itemvalue="Application.FindMaxLength" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.GuessWords" />
         <item itemvalue="Application.LongestPalindrome" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -523,14 +526,7 @@
       <workItem from="1578550587835" duration="7538000" />
       <workItem from="1578619397861" duration="13651000" />
       <workItem from="1578880231211" duration="47013000" />
-      <workItem from="1579144153512" duration="18246000" />
-    </task>
-    <task id="LOCAL-00025" summary="删除链表中的重复节点">
-      <created>1573636907195</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1573636907195</updated>
+      <workItem from="1579144153512" duration="23264000" />
     </task>
     <task id="LOCAL-00026" summary="fix">
       <created>1573694351800</created>
@@ -868,11 +864,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579167071726</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="具有相同数量0、1的最长连续子数组">
+      <created>1579241012825</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1579241012825</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292510000" />
+    <option name="totallyTimeSpent" value="297528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,7 +888,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.26466382" />
       <window_info id="Structure" order="1" sideWeight="0.26462397" side_tool="true" weight="0.2067239" />
@@ -896,13 +898,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" show_stripe_button="false" weight="0.3287858" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4899857" visible="true" weight="0.16234653" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4899857" weight="0.28785813" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4914163" weight="0.19781719" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49933067" weight="0.33969986" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.490701" weight="0.19372442" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.490701" visible="true" weight="0.53206" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49732262" weight="0.24965894" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.509299" side_tool="true" weight="0.59481585" />
@@ -1282,9 +1284,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testout.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/171cad48cd0c14f565f2a0e5aa5ccb130e4562906ee10a84289f12e4460fe164-image.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1646,8 +1645,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/FindMaxLength.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        <state relative-caret-position="798">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/math/DiscoverGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
