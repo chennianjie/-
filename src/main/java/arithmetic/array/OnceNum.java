@@ -91,7 +91,6 @@ public class OnceNum {
     public static void main(String[] args) {
         Integer onceNumFromOther3 = new OnceNum().findOnceNumFromOther3(new int[]{2, 2, 2, 1, 3, 3, 3,4 ,4,4,5,5,5});
         System.out.println(onceNumFromOther3);
-
     }
 
 }
