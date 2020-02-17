@@ -1,5 +1,6 @@
 package arithmetic.tree.sensitiveService;
 
+import org.apache.commons.lang.CharUtils;
 import org.apache.commons.lang.StringUtils;
 
 import java.util.HashMap;
@@ -80,6 +81,16 @@ public class SensitiveService{
         //最后position遍历完之后，把index之后的部分拼接在结果上
         result.append(word.substring(begin));
         return result.toString();
+    }
+
+    /**
+     * 去除特殊字符
+     * @param c
+     * @return
+     */
+    private boolean isSymbol(char c) {
+        int ic = (int) c;
+        return !CharUtils.isAsciiAlphanumeric(c) && (ic < 0x2E80 || ic > 0x9FFF);
     }
 
     private class NodeTemp{
