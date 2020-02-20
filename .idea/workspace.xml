@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="37" column="80" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
+            <state relative-caret-position="136">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -485,14 +485,7 @@
       <workItem from="1581905635001" duration="3198000" />
       <workItem from="1581928921877" duration="3821000" />
       <workItem from="1582004847863" duration="6465000" />
-      <workItem from="1582186714575" duration="2739000" />
-    </task>
-    <task id="LOCAL-00032" summary="序列化和反序列化二叉树(先序和层级遍历)">
-      <created>1574061999550</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1574061999550</updated>
+      <workItem from="1582186714575" duration="2890000" />
     </task>
     <task id="LOCAL-00033" summary="二叉树层级遍历">
       <created>1574063850048</created>
@@ -830,11 +823,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581937797065</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="字典序排数">
+      <created>1582203826408</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1582203826409</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366114000" />
+    <option name="totallyTimeSpent" value="366265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -978,7 +978,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="两个链表数值相加" />
     <MESSAGE value="两个字符串相乘" />
     <MESSAGE value="找到所有数组中消失的数" />
     <MESSAGE value="求两个字符串的最大公约数" />
@@ -1003,7 +1002,8 @@
     <MESSAGE value="二叉树的堂兄弟节点" />
     <MESSAGE value="铭感词过滤" />
     <MESSAGE value="去除特殊字符" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除特殊字符" />
+    <MESSAGE value="字典序排数" />
+    <option name="LAST_COMMIT_MESSAGE" value="字典序排数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1639,8 +1639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="37" column="80" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
+        <state relative-caret-position="136">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
