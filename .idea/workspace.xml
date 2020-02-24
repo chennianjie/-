@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/MctFromLeafValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,14 +66,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="51">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/MctFromLeafValues.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -150,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/CutRope.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/common/CopyTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/backtracking/RobotMovingCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/stack/MinStack.java" />
@@ -201,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/main/java/nio/CopyFileByNIO.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/sensitiveService/SensitiveService.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/MctFromLeafValues.java" />
       </list>
     </option>
   </component>
@@ -243,9 +252,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="979" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -258,6 +267,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,6 +309,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_plan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -321,8 +341,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,22 +377,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LexicalOrder">
+  <component name="RunManager" selected="Application.MctFromLeafValues">
     <configuration name="Candy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.math.Candy" />
-      <module name="CommonInterviewProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arithmetic.math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiscoverGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arithmetic.math.DiscoverGame" />
       <module name="CommonInterviewProblems" />
       <extension name="coverage">
         <pattern>
@@ -412,6 +417,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MctFromLeafValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arithmetic.dynamic_plan.MctFromLeafValues" />
+      <module name="CommonInterviewProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arithmetic.dynamic_plan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SensitiveService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arithmetic.tree.sensitiveService.SensitiveService" />
       <module name="CommonInterviewProblems" />
@@ -426,19 +444,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DiscoverGame" />
       <item itemvalue="Application.FileUtils" />
       <item itemvalue="Application.Candy" />
       <item itemvalue="Application.SensitiveService" />
       <item itemvalue="Application.LexicalOrder" />
+      <item itemvalue="Application.MctFromLeafValues" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MctFromLeafValues" />
         <item itemvalue="Application.LexicalOrder" />
         <item itemvalue="Application.FileUtils" />
         <item itemvalue="Application.SensitiveService" />
         <item itemvalue="Application.Candy" />
-        <item itemvalue="Application.DiscoverGame" />
       </list>
     </recent_temporary>
   </component>
@@ -485,14 +503,8 @@
       <workItem from="1581905635001" duration="3198000" />
       <workItem from="1581928921877" duration="3821000" />
       <workItem from="1582004847863" duration="6465000" />
-      <workItem from="1582186714575" duration="2890000" />
-    </task>
-    <task id="LOCAL-00033" summary="二叉树层级遍历">
-      <created>1574063850048</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1574063850048</updated>
+      <workItem from="1582186714575" duration="4125000" />
+      <workItem from="1582516973029" duration="3078000" />
     </task>
     <task id="LOCAL-00034" summary="搜索二叉树中第k小的值">
       <created>1574065120251</created>
@@ -830,11 +842,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582203826409</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="字典序排数--思路">
+      <created>1582203982442</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1582203982442</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366265000" />
+    <option name="totallyTimeSpent" value="370578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -846,10 +865,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" weight="0.21619813" />
+      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" weight="0.44551724" />
       <window_info id="Structure" order="1" sideWeight="0.26462397" side_tool="true" weight="0.2067239" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -858,7 +877,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" show_stripe_button="false" weight="0.3287858" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4899857" weight="0.32998565" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4899857" weight="0.082728595" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4914163" weight="0.61255115" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -876,7 +895,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966533" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966533" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3299866" />
+      <window_info anchor="right" id="Database" order="4" weight="0.15997322" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.32931727" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -886,7 +905,7 @@
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297568" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.21619813" />
+      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.44551724" />
       <window_info id="Structure" order="1" sideWeight="0.26462397" side_tool="true" weight="0.2067239" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -895,7 +914,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" show_stripe_button="false" weight="0.3287858" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4899857" visible="true" weight="0.32998565" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4899857" visible="true" weight="0.082728595" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4914163" weight="0.61255115" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -913,7 +932,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966533" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966533" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3299866" />
+      <window_info anchor="right" id="Database" order="4" weight="0.15997322" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.32931727" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -978,7 +997,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="两个字符串相乘" />
     <MESSAGE value="找到所有数组中消失的数" />
     <MESSAGE value="求两个字符串的最大公约数" />
     <MESSAGE value="二叉树序列化与反序列化" />
@@ -1003,7 +1021,8 @@
     <MESSAGE value="铭感词过滤" />
     <MESSAGE value="去除特殊字符" />
     <MESSAGE value="字典序排数" />
-    <option name="LAST_COMMIT_MESSAGE" value="字典序排数" />
+    <MESSAGE value="字典序排数--思路" />
+    <option name="LAST_COMMIT_MESSAGE" value="字典序排数--思路" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1265,13 +1284,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/IsBalanceTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/FindMaxConsecutiveOnes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -1639,11 +1651,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="51">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/MctFromLeafValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
