@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/array/BuildDoubleMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/bit_operation/ExchangeBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,11 +96,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/BuildDoubleMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="257">
+              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/bit_operation/ExchangeBits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -177,8 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/backtracking/RobotMovingCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/arithmetic/stack/MinStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/string/LeftRotateString.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest.java" />
         <option value="$PROJECT_DIR$/cfg/PropConfig.xml" />
@@ -228,6 +235,8 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/MctFromLeafValues.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/array/BuildDoubleMatrix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/bit_operation/exchangeBits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/bit_operation/ExchangeBits.java" />
       </list>
     </option>
   </component>
@@ -328,16 +337,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommonInterviewProblems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic_plan" type="462c0819:PsiDirectoryNode" />
+              <item name="bit_operation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CommonInterviewProblems" type="b2602c69:ProjectViewProjectNode" />
@@ -532,14 +532,7 @@
       <workItem from="1581928921877" duration="3821000" />
       <workItem from="1582004847863" duration="6465000" />
       <workItem from="1582186714575" duration="4125000" />
-      <workItem from="1582516973029" duration="7753000" />
-    </task>
-    <task id="LOCAL-00035" summary="找中位数">
-      <created>1574069506680</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1574069506680</updated>
+      <workItem from="1582516973029" duration="8599000" />
     </task>
     <task id="LOCAL-00036" summary="搜索二叉树中找第k小的数">
       <created>1574069536791</created>
@@ -877,11 +870,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582520060697</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="顺时针旋转构建二维数组">
+      <created>1582549782937</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1582549782937</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375253000" />
+    <option name="totallyTimeSpent" value="376099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,7 +896,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.21686748" />
+      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.21686748" />
       <window_info id="Structure" order="1" sideWeight="0.26462397" side_tool="true" weight="0.2067239" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -905,7 +905,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" show_stripe_button="false" weight="0.3287858" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4899857" visible="true" weight="0.2898135" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4899857" visible="true" weight="0.34433284" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4914163" weight="0.55667144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1025,7 +1025,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="求两个字符串的最大公约数" />
     <MESSAGE value="二叉树序列化与反序列化" />
     <MESSAGE value="是否是完全二叉树" />
     <MESSAGE value="超级丑数" />
@@ -1050,7 +1049,8 @@
     <MESSAGE value="字典序排数" />
     <MESSAGE value="字典序排数--思路" />
     <MESSAGE value="叶值的最小代价生成树" />
-    <option name="LAST_COMMIT_MESSAGE" value="叶值的最小代价生成树" />
+    <MESSAGE value="顺时针旋转构建二维数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="顺时针旋转构建二维数组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1318,13 +1318,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/list/MergeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/bit_operation/NumberOf1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1695,8 +1688,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/array/BuildDoubleMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="257">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/bit_operation/ExchangeBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
