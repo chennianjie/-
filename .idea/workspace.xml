@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209ed44-2773-4ea0-9890-b0dac22ea57d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/MaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingPathInMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,18 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/tree/LexicalOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/MctFromLeafValues.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,11 +69,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/MaxValue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="23" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingPathInMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -180,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest.java" />
         <option value="$PROJECT_DIR$/cfg/PropConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/staxparse/StaxTest2Thread.java" />
         <option value="$PROJECT_DIR$/src/main/java/ds/fileparse/ParseXML.java" />
@@ -231,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/bit_operation/exchangeBits.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/bit_operation/ExchangeBits.java" />
         <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/MaxValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingPathInMatrix.java" />
       </list>
     </option>
   </component>
@@ -527,14 +524,7 @@
       <workItem from="1582004847863" duration="6465000" />
       <workItem from="1582186714575" duration="4125000" />
       <workItem from="1582516973029" duration="14184000" />
-      <workItem from="1582694148056" duration="547000" />
-    </task>
-    <task id="LOCAL-00037" summary="nio相关">
-      <created>1574235019349</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1574235019349</updated>
+      <workItem from="1582694148056" duration="636000" />
     </task>
     <task id="LOCAL-00038" summary="最大窗口   增加注释">
       <created>1574242540009</created>
@@ -872,11 +862,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582610942260</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="最大礼物价值">
+      <created>1582694706222</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1582694706222</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="382231000" />
+    <option name="totallyTimeSpent" value="382320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -891,7 +888,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.16398929" />
+      <window_info active="true" content_ui="combo" x="604" y="127" width="327" height="580" id="Project" order="0" sideWeight="0.73537606" visible="true" weight="0.16398929" />
       <window_info id="Structure" order="1" sideWeight="0.26462397" side_tool="true" weight="0.2067239" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1020,7 +1017,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="是否是完全二叉树" />
     <MESSAGE value="超级丑数" />
     <MESSAGE value="最大连续个数1" />
     <MESSAGE value="图" />
@@ -1045,7 +1041,8 @@
     <MESSAGE value="叶值的最小代价生成树" />
     <MESSAGE value="顺时针旋转构建二维数组" />
     <MESSAGE value="二进位奇偶位置互换" />
-    <option name="LAST_COMMIT_MESSAGE" value="二进位奇偶位置互换" />
+    <MESSAGE value="最大礼物价值" />
+    <option name="LAST_COMMIT_MESSAGE" value="最大礼物价值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1313,9 +1310,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/graph/Edge.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/graph/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1692,6 +1686,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic/dynamic_plan/LongestIncreasingPathInMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
         </state>
       </provider>
     </entry>
