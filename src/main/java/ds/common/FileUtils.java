@@ -46,8 +46,8 @@ public class FileUtils {
         }finally {
         }
         for (String str : set) {
-//          pw.println( str);
-            pw.println(str + ",");
+          pw.println( str  + ",");
+//            pw.println("'" + str + "',");
         }
         pw.close();
         System.out.println("一共的个数：" + count);

@@ -11,7 +11,7 @@ import java.util.concurrent.CyclicBarrier;
  * @Date: 8/30/2019
  * @Description:CyclicBarrier测试类
  */
-public class CyclicBarrierTest {
+public class  CyclicBarrierTest {
 
     public static void main(String[] args) throws BrokenBarrierException, InterruptedException {
         for (int i = 0; i < 4; i++){
