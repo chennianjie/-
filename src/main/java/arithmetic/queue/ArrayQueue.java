@@ -10,8 +10,8 @@ import common.MyRuntimeException;
 public class ArrayQueue {
 
     private int size = 0;
-    private int first = 0;
-    private int last = 0;
+    private int first = 0;//表示第一个进入的
+    private int last = 0;//表示最后一个进入队列的
     private Integer[] list;
 
     public ArrayQueue(int size) {
