@@ -1,9 +1,15 @@
 package javase.list;
 
+
+import org.junit.Assert;
+import org.junit.jupiter.api.condition.EnabledOnOs;
+import org.junit.jupiter.api.condition.OS;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Test {
+
 
     public static void main(String[] args) {
         HashMap<Domain, String> domainStringHashMap = new HashMap<>();
@@ -15,6 +21,26 @@ public class Test {
 
 
 
+    }
+
+    static void assertThrowTest(){
+        // Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+        assertThrows(NullPointerException.class, ()->{
+            Person person = new Person();
+            person.getName();
+        });
+    }
+
+    //提取时分秒
+    static void testPattern(){
+        String time = "09:55:01";
+        Pattern pattern = Pattern.compile("([0-2]?\\d)\\:([0-5]\\d)\\:([0-5]\\d)");
+        System.out.println(pattern.matcher(time).matches());
+        Matcher matcher = pattern.matcher(time);
+//        Assert.assertEquals("09", matcher.group(1));
+        matcher.find();
+        String hour = matcher.group(1);
+        System.out.println(hour);
     }
 
     /**
